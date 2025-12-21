@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/children/Header";
-import Footer from "@/children/Footer";
+import Header from "@/Children/Header";
+import Footer from "@/Children/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,6 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <head>
+        {/* Tailwind Play CDN for v4+ */}
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
