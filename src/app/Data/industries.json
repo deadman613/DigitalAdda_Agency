@@ -1,0 +1,1995 @@
+{
+  "industrySlugMap": {
+    "startup": "StartUp Marketing",
+    "fashion": "Fashion Digital Marketing Agency",
+    "healthcare": "Health Care Digital Marketing",
+    "b2b": "B2B Digital Marketing",
+    "education": "Education Digital Marketing",
+    "interior-designer": "Interior Designer Digital Marketing",
+    "real-estate": "Real Estate Digital Marketing",
+    "travel-tour": "Tour & Travel Digital Marketing",
+    "ca": "CA Digital Marketing",
+    "lawyer": "Lawyer Digital Marketing",
+    "ev": "EV Digital Marketing",
+    "finance": "Finance Digital Marketing",
+    "construction": "Construction Digital Marketing",
+    "manufacturing": "Manufacturing Digital Marketing",
+    "political": "Political Campaign Digital Marketing"
+  },
+  "industries": {
+   "StartUp Marketing": {
+  "hero": {
+    "title": "Launch With Clarity. Scale With Confidence.",
+    "subtitle": "Turn early ideas into visible brands without wasting time or budget.",
+    "description": "Digital Adda helps startups cut through digital noise, attract the right audience, and build sustainable growth. We focus on traction, trust, and long-term visibility — not empty hype."
+  },
+
+  "cta": "Book Your Free Startup Growth Audit",
+
+  "warningSigns": [
+    {
+      "title": "Over-Designing, Under-Growing",
+      "description": "You’re spending hours refining visuals instead of validating your product with real users."
+    },
+    {
+      "title": "Strong Pitch, Weak Presence",
+      "description": "Your investor pitch sounds confident, but your digital presence fails to reflect it."
+    },
+    {
+      "title": "Consistency Without Results",
+      "description": "You’re posting regularly, yet engagement and traction remain stagnant."
+    },
+    {
+      "title": "Marketing on the Back Burner",
+      "description": "Growth matters, but marketing always gets delayed in favor of product work."
+    },
+    {
+      "title": "Launch That Didn’t Convert",
+      "description": "Your product launch created noise but failed to generate real users or leads."
+    },
+    {
+      "title": "Great Product, Low Visibility",
+      "description": "Your solution is solid, but your market doesn’t know you exist."
+    }
+  ],
+
+  "approachHighlights": [
+    {
+      "icon": "target",
+      "title": "Startup-Focused Growth Strategy",
+      "description": "We create a clear marketing roadmap aligned with your stage, audience, and business goals."
+    },
+    {
+      "icon": "users",
+      "title": "Audience-First Brand Building",
+      "description": "We turn attention into trust by building genuine connections with the right audience."
+    },
+    {
+      "icon": "analytics",
+      "title": "Performance That Matters",
+      "description": "Our decisions are driven by reach, engagement, leads, and conversions — not vanity numbers."
+    },
+    {
+      "icon": "content",
+      "title": "High-Impact Short-Form Content",
+      "description": "Reels, shorts, and carousels designed to test messaging and accelerate visibility."
+    },
+    {
+      "icon": "brand",
+      "title": "Founder & Brand Authority",
+      "description": "We position founders and brands as credible voices within their industry."
+    },
+    {
+      "icon": "growth",
+      "title": "Scalable Growth Systems",
+      "description": "A smart blend of organic content, paid reach, and conversion-driven funnels."
+    }
+  ],
+
+  "stats": [
+    "500+ Brands Scaled",
+    "2.5M+ Leads Generated",
+    "90%+ Client Retention",
+    "4.8/5 Client Satisfaction"
+  ],
+
+  "plans": [
+    {
+      "name": "3-Month Plan — Growth Foundation",
+      "term": "3 Months",
+      "description": "Ideal for early-stage startups building visibility and consistency.",
+      "features": [
+        "Monthly Growth Strategy",
+        "1 Social Media Platform",
+        "15 High-Quality Posts Per Month",
+        "Daily Audience Engagement",
+        "Email Support",
+        "Monthly Performance Report",
+        "Strategy Review Call",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Priority Issue Handling",
+        "Standard Video Editing"
+      ],
+      "cta": "Start Growing",
+      "badge": "Starter"
+    },
+    {
+      "name": "6-Month Plan — Brand Acceleration",
+      "term": "6 Months",
+      "description": "Designed for startups seeking steady growth and strong brand recall.",
+      "features": [
+        "Advanced Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "Daily Audience Engagement",
+        "Email Support",
+        "Detailed Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Advanced Video Editing"
+      ],
+      "cta": "Build Authority",
+      "badge": "Growth"
+    },
+    {
+      "name": "12-Month Plan — Scale & Dominate",
+      "term": "12 Months",
+      "description": "Built for startups ready to scale fast and establish market leadership.",
+      "features": [
+        "Growth-Driven Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "Daily Audience Engagement",
+        "Priority Email Support",
+        "In-Depth Performance Analytics",
+        "Monthly Strategy & Growth Calls",
+        "Senior Account Manager",
+        "Priority Phone Support",
+        "24/7 Emergency Support",
+        "Premium Video & Reel Production",
+        "Trend & Market Integration",
+        "Competitor Intelligence"
+      ],
+      "cta": "Scale Your Startup",
+      "badge": "Most Popular"
+    }
+  ]
+},
+
+
+    "Fashion Digital Marketing Agency": {
+      "hero": {
+        "title": "Fashion That Stops Scrollers",
+        "subtitle": "From runway to Reels: make your brand the trend everyone craves.",
+        "description": "We turn aesthetics into algorithms — blending high-fashion visuals with viral hooks that convert window shoppers into loyalists."
+      },
+      "cta": "Style Your Strategy Session",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "👗",
+          "title": "Trend-Jacking, Not Trend-Chasing",
+          "description": "We spot rising aesthetics early (e.g., ‘coquette’, ‘mob wife’) and position your brand as the authority — not the follower."
+        },
+        {
+          "icon": "🎥",
+          "title": "Behind-the-Seams Storytelling",
+          "description": "Show fabric sourcing, artisan close-ups, and design sketches — turning products into emotional heirlooms."
+        },
+        {
+          "icon": "🔁",
+          "title": "UGC That Feels Like Aspirational Content",
+          "description": "Turn customer photos into high-production carousels — with styling tips, context, and credit that builds community."
+        },
+        {
+          "icon": "🛍️",
+          "title": "Swipe-Up Psychology",
+          "description": "We craft Reels with ‘pause-worthy’ moments and strategic CTAs that drive traffic *without* breaking the aesthetic."
+        },
+        {
+          "icon": "🌍",
+          "title": "Global Micro-Influencer Networks",
+          "description": "Hyper-local creators in Paris, Seoul, Lagos — not just LA — to build authentic desire across markets."
+        },
+        {
+          "icon": "📊",
+          "title": "Sell-Through Analytics",
+          "description": "Track which Reels drive real sales (not just saves) — and double down on what converts."
+        }
+      ],
+      "stats": [
+        "300+ Fashion Brands",
+        "$12M+ Revenue Tracked",
+        "3.2x Avg. ROAS",
+        "4.9/5 Creator Score"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Health Care Digital Marketing": {
+      "hero": {
+        "title": "Trust, Transparency, Transformation",
+        "subtitle": "Human-first content that builds credibility & converts patients.",
+        "description": "Ethical, empathetic, and HIPAA-aware marketing that positions you as the healer — not the hustler."
+      },
+      "cta": "Schedule a Compliance-First Consult",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "❤️",
+          "title": "Patient Journey Storytelling",
+          "description": "Real anonymized stories (with consent) that highlight empathy, outcomes, and hope — without violating privacy."
+        },
+        {
+          "icon": "🛡️",
+          "title": "HIPAA-Safe Engagement",
+          "description": "Pre-approved comment responses, private DM protocols, and content workflows that keep you compliant *and* connected."
+        },
+        {
+          "icon": "🧠",
+          "title": "Myth-Busting Content",
+          "description": "Short videos debunking misinformation (e.g., ‘Do you *really* need that scan?’) to build authority and ease fears."
+        },
+        {
+          "icon": "👩‍⚕️",
+          "title": "Team Spotlight Series",
+          "description": "Humanize your practice: ‘A Day with Dr. Lee’, nurse interviews, admin team — trust is built person by person."
+        },
+        {
+          "icon": "📍",
+          "title": "Geo-Targeted Community Care",
+          "description": "Local health tips, free screening alerts, and partnerships with schools/gyms — position yourself as the neighborhood expert."
+        },
+        {
+          "icon": "📈",
+          "title": "Appointment-Driven Funnels",
+          "description": "Content → Lead Magnet (e.g., ‘Free Wellness Checklist’) → Calendly → Confirmed Visit. No vague ‘contact us’ dead ends."
+        }
+      ],
+      "stats": [
+        "180+ Clinics & Practices",
+        "41% Avg. New Patient Increase",
+        "97% Compliance Audit Pass",
+        "4.7/5 Patient Trust Score"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "B2B Digital Marketing": {
+      "hero": {
+        "title": "Where Leads Turn Into Lifetimes",
+        "subtitle": "No fluff. Just ROI-driven strategies that close enterprise deals.",
+        "description": "We speak the language of procurement, procurement, and ROI — turning LinkedIn into your most predictable revenue channel."
+      },
+      "cta": "Audit Your ABM Strategy",
+      "warningSigns": [
+        {
+          "title": "AI-Powered Strategies That Deliver Real Results",
+          "description": "At DigitalAdda Agency, we don’t rely on assumptions. We use advanced AI-driven analytics to understand your audience, study behavior patterns, and identify high-converting opportunities."
+        },
+        {
+          "title": "Next-Gen VR Marketing Experiences",
+          "description": "Step into the future of digital branding with immersive Virtual Reality marketing. We create interactive VR moments that allow users to truly experience your brand, not just view it"
+        },
+        {
+          "title": "Consistent, High-End Brand Identity",
+          "description": "Your brand deserves a visual presence that speaks volumes. We design cohesive, premium, and aesthetically powerful brand identities that reflect your true value."
+        },
+        {
+          "title": "Content That Beats the Algorithm",
+          "description": "The algorithm may be unpredictable, but our strategies aren’t. We craft engaging, scroll-stopping content tailored to boost visibility and reach."
+        },
+        {
+          "title": " Human Creativity Powered by AI Precision",
+          "description": "Our strength lies in combining the creative intelligence of humans with the sharp accuracy of AI tools. The result? Content that feels emotional, relatable, and human — yet strategically engineered for maximum reach, performance, and conversions."
+        },
+        {
+          "title": " Performance You Can Track and Trust",
+          "description": "Every campaign we run is backed by real-time analytics and performance data. From impressions to conversions, we monitor everything closely and continuously refine your strategy for the highest ROI."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "",
+          "title": "Deep Audience Connection",
+          "description": "We transform your message into conversations that convert. Your audience feels understood — and becomes loyal."
+        },
+        {
+          "icon": "📊",
+          "title": "Unshakable Consistency",
+          "description": "We build a strong, recognizable brand voice with automated calendars, structured workflows, and powerful positioning."
+        },
+        {
+          "icon": "🎯",
+          "title": "Data-Driven Optimization",
+          "description": "Every month, we refine your strategy using real analytics — ensuring your reach, engagement, and leads grow continuously."
+        },
+        {
+          "icon": "🤝",
+          "title": "Custom Creative Power",
+          "description": "The algorithm may be unpredictable, but our strategies aren’t. We craft engaging, scroll-stopping content tailored to boost visibility and reach."
+        },
+        {
+          "icon": "📈",
+          "title": " Real-Time Relevance",
+          "description": " We react fast to trends, industry news, and algorithm shifts — keeping your brand always visible and competitive."
+        },
+        {
+          "icon": "🌐",
+          "title": " Multi-Channel Mastery",
+          "description": "Instagram, Facebook, LinkedIn, YouTube, TikTok — We Customize content for each platform to maximize impact and ROI."
+        }
+      ],
+      "stats": [
+        "15+ Active Clients",
+        "1,000+ Happy Customers",
+        "99% Satisfaction Score",
+        "Successfully Delivered 1000+ Projects"
+      ],
+      "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Education Digital Marketing": {
+      "hero": {
+        "title": "Enroll More. Inspire Always.",
+        "subtitle": "Turn your mission into viral moments that attract students, not just clicks.",
+        "description": "From admissions to alumni pride — we help schools, coaches, and academies build communities that grow themselves."
+      },
+      "cta": "Plan Your Enrollment Boost",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🎓",
+          "title": "Student Journey Documentaries",
+          "description": "Mini-docs: ‘From Shy Freshman to Club President’ — raw, emotional, and shareable by families."
+        },
+        {
+          "icon": "📱",
+          "title": "TikTok Campus Tours",
+          "description": "Student-led, vertical, unfiltered — showing real dorms, labs, and lunch lines (not stock photos)."
+        },
+        {
+          "icon": "💡",
+          "title": "Faculty Passion Clips",
+          "description": "‘Why I Teach Calculus’ in 60 seconds — humanizing educators and showcasing teaching philosophy."
+        },
+        {
+          "icon": "🌍",
+          "title": "Parent-Focused Value",
+          "description": "Content answering real fears: ROI, safety, mental health support — not just campus amenities."
+        },
+        {
+          "icon": "📈",
+          "title": "Alumni Success Loops",
+          "description": "Feature grads in careers — then invite them to mentor current students. Builds pride + proof."
+        },
+        {
+          "icon": "📅",
+          "title": "Event-to-Content Engine",
+          "description": "Turn every seminar, sports game, or art show into 5+ content pieces — maximizing effort, reach, and FOMO."
+        }
+      ],
+      "stats": [
+        "90+ Schools & Coaches",
+        "210% Avg. Open House Growth",
+        "4.3x Social Referral Rate",
+        "4.9/5 Parent Trust Score"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Interior Designer Digital Marketing": {
+      "hero": {
+        "title": "Design That Sells Before the Contract",
+        "subtitle": "Showcase spaces that make clients say: ‘We’ll take it!’ before the walkthrough.",
+        "description": "We turn your portfolio into a lead-generating machine — where every image whispers, ‘This could be your home.’"
+      },
+      "cta": "Visualize Your Brand Lift",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🛋️",
+          "title": "Before → After → Emotion",
+          "description": "Not just visuals — add voiceover: ‘This couple felt overwhelmed… now they host Sunday dinners here.’"
+        },
+        {
+          "icon": "🎥",
+          "title": "Walkthrough Reels",
+          "description": "iPhone-guided tours: ‘Watch how light moves through this space at golden hour’ — immersive and intimate."
+        },
+        {
+          "icon": "💡",
+          "title": "Design Tip Snippets",
+          "description": "‘3 Ways to Make a Small Kitchen Feel Luxe’ — practical value that builds authority and DMs."
+        },
+        {
+          "icon": "📈",
+          "title": "Lead-Gen Lookbooks",
+          "description": "‘The Coastal Calm Collection’ PDF — gated behind email, tailored to client style quizzes."
+        },
+        {
+          "icon": "🤝",
+          "title": "Client Co-Creation Stories",
+          "description": "Document the journey: mood boards, fabric swatches, joyful reveal — positions you as a partner, not a vendor."
+        },
+        {
+          "icon": "📱",
+          "title": "Pinterest ↔ Instagram Sync",
+          "description": "Optimize pins for search, drive to Reels for emotion — full-funnel visual storytelling."
+        }
+      ],
+      "stats": [
+        "120+ Designers",
+        "Avg. 8.2 Leads/Week",
+        "67% Close Rate from Social",
+        "4.8/5 Client Delight"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Real Estate Digital Marketing": {
+      "hero": {
+        "title": "Listings That Go Viral (Not Just Live)",
+        "subtitle": "Turn open houses into sold signs — with scroll-stopping storytelling.",
+        "description": "We help agents and brokerages dominate feeds, not just MLS — making every listing feel like the one buyers can’t miss."
+      },
+      "cta": "List Like a Legend",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🏡",
+          "title": "Lifestyle-First Listings",
+          "description": "‘Morning coffee on this patio = bird song, city views, zero traffic stress’ — sell the *life*, not square footage."
+        },
+        {
+          "icon": "🎥",
+          "title": "Cinematic Mini-Tours",
+          "description": "60-second vertical videos with sound design (creaking floors, fireplace crackle) — immersive AF."
+        },
+        {
+          "icon": "📍",
+          "title": "Neighborhood Deep Dives",
+          "description": "‘3 Hidden Gems Within 5 Minutes of 123 Oak St’ — builds local authority and emotional connection."
+        },
+        {
+          "icon": "📈",
+          "title": "term-Justification Content",
+          "description": "‘Why This $850K Home Is Actually a Steal’ — data + storytelling to combat sticker shock."
+        },
+        {
+          "icon": "🤝",
+          "title": "Client Journey Series",
+          "description": "Document the search: tears over rejected offers, joy at closing — builds trust with future buyers."
+        },
+        {
+          "icon": "📱",
+          "title": "DM-First Lead Nurturing",
+          "description": "Automated but personal: ‘Saw you liked the Craftsman — here’s a similar one just listed off-market.’"
+        }
+      ],
+      "stats": [
+        "200+ Agents & Teams",
+        "Avg. 14 Days to Offer",
+        "3.1x Social Referral Rate",
+        "4.9/5 Client NPS"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Tour & Travel Digital Marketing": {
+      "hero": {
+        "title": "Sell Wanderlust, Not Just Packages",
+        "subtitle": "Make dream destinations feel urgent, immersive, and unforgettable.",
+        "description": "We turn brochures into bucket lists — using sensory storytelling that makes booking feel inevitable."
+      },
+      "cta": "Map Your Marketing Escape",
+      "warningSigns": [
+        "Your website shows resorts — but not the *feeling* of barefoot on warm sand at sunset.",
+        "You post group tour photos… but travelers want to imagine *themselves* there.",
+        "Your ‘deals’ feel transactional — not transformative.",
+        "User-generated content is gold — but you’re not encouraging or curating it.",
+        "You’re missing micro-moments: ‘What to pack for Bali’, ‘How to haggle in Marrakech’.",
+        "Your competitors are going viral with ‘travel hack’ Reels — you’re still emailing newsletters."
+      ],
+      "approachHighlights": [
+        {
+          "icon": "✈️",
+          "title": "Sensory Storytelling",
+          "description": "Videos with ambient sound (waves, market chatter, jungle birds) — no music, just immersion."
+        },
+        {
+          "icon": "📱",
+          "title": "POV Travel Reels",
+          "description": "‘A Day in My Life as a Bali Retreat Guest’ — first-person, raw, no filters."
+        },
+        {
+          "icon": "🎁",
+          "title": "Lead Magnet Itineraries",
+          "description": "‘7-Day Kyoto Magic’ PDF — gated, detailed, and shareable — builds email list + trust."
+        },
+        {
+          "icon": "💬",
+          "title": "UGC Amplification Engine",
+          "description": "Repost + elevate client stories — with permission, credit, and strategic CTAs."
+        },
+        {
+          "icon": "🎯",
+          "title": "Niche Audience Targeting",
+          "description": "‘Solo Female Travelers’, ‘Retiree Adventures’, ‘Family Reconnection Trips’ — speak directly to psychographics."
+        },
+        {
+          "icon": "📅",
+          "title": "Seasonal FOMO Campaigns",
+          "description": "‘Only 3 Cherry Blossom Weeks Left!’ — urgency with beauty, not pressure."
+        }
+      ],
+      "stats": [
+        "75+ Travel Brands",
+        "Avg. 28% Booking Uplift",
+        "4.2x Engagement Rate",
+        "4.8/5 Traveler Delight"
+      ]
+    },
+
+    "CA Digital Marketing": {
+      "hero": {
+        "title": "More Than Numbers — You’re the Navigator",
+        "subtitle": "Position yourself as the trusted advisor in a sea of spreadsheets.",
+        "description": "We help CAs build authority, attract high-value clients, and stand out — without sounding salesy or generic."
+      },
+      "cta": "Audit Your Authority",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🧮",
+          "title": "Myth-Busting Shorts",
+          "description": "‘No, GST won’t bankrupt your startup’ — quick, confident, shareable truth bombs."
+        },
+        {
+          "icon": "🚀",
+          "title": "Startup Growth Partner Positioning",
+          "description": "Content like: ‘3 Financial Red Flags VCs Spot in Your Pitch Deck’ — you’re the secret weapon."
+        },
+        {
+          "icon": "🎯",
+          "title": "Niche Authority Building",
+          "description": "‘The E-Commerce CA’, ‘The SaaS Tax Strategist’ — specialization attracts premium clients."
+        },
+        {
+          "icon": "🤝",
+          "title": "Client Journey Transparency",
+          "description": "‘How We Helped a D2C Brand Save ₹18L in Tax’ — anonymized, detailed, credible."
+        },
+        {
+          "icon": "📱",
+          "title": "WhatsApp-First Lead Nurturing",
+          "description": "Broadcast value (e.g., ‘New TDS rule alert’) — then invite to 1:1 consult. Low friction, high trust."
+        },
+        {
+          "icon": "📈",
+          "title": "Referral Engine Design",
+          "description": "‘Refer a Founder, Get a Free Cap Table Review’ — turns happy clients into your salesforce."
+        }
+      ],
+      "stats": [
+        "60+ CAs & Firms",
+        "Avg. ₹5.2L Client Value",
+        "89% Referral Rate",
+        "4.7/5 Client Trust"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTHs PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Platform (Google / Instagram / LinkedIn)",
+        "15 Posts Per Month",
+        "12 Professional Posts",
+        "Basic Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Dedicated Account Manager"
+        
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Quarterly Strategy Refresh",
+        "30 Posts Per Month",
+        "3 Platforms",
+        "Daily Engagement",
+        "Priority Support",
+        "Unlimited Reels Editing",
+        "Monthly Performance Reports",
+        "Compliance-Based Content",
+        "AI-Driven Insights",
+        "18% Cost Savings"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Lawyer Digital Marketing": {
+      "hero": {
+        "title": "Authority You Can’t Ignore",
+        "subtitle": "Win cases *and* clients with content that commands respect and trust.",
+        "description": "Ethical, compelling storytelling that positions you as the obvious choice — before the first consultation."
+      },
+      "cta": "Build Your Legal Legacy",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "⚖️",
+          "title": "Plain-English Law Breakdowns",
+          "description": "‘What the New Data Law Means for Your Startup’ — no jargon, just clarity and confidence."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Ethical Storytelling Framework",
+          "description": "Anonymized case studies with emotional arcs: challenge → strategy → outcome → lesson."
+        },
+        {
+          "icon": "🎯",
+          "title": "Niche Dominance",
+          "description": "‘The Crypto Divorce Lawyer’, ‘The SaaS IP Specialist’ — specificity builds authority and searchability."
+        },
+        {
+          "icon": "📱",
+          "title": "Reels That Pre-Qualify Clients",
+          "description": "‘3 Signs You Need a Prenup (Even If You’re Broke)’ — attracts ideal clients, repels tire-kickers."
+        },
+        {
+          "icon": "📈",
+          "title": "Consultation Conversion Funnels",
+          "description": "Free guide (e.g., ‘5 Contract Clauses That Sink Startups’) → email → Calendly → high-intent consult."
+        },
+        {
+          "icon": "🤝",
+          "title": "Bar Association + Social Credibility",
+          "description": "Blend traditional credentials (awards, panels) with modern proof (client testimonials, media features)."
+        }
+      ],
+      "stats": [
+        "45+ Lawyers & Firms",
+        "Avg. 12 Qualified Leads/Month",
+        "76% Consult-to-Client Rate",
+        "4.9/5 Client Confidence"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "EV Digital Marketing": {
+      "hero": {
+        "title": "Drive the Future — Digitally",
+        "subtitle": "Charge up your brand with storytelling that electrifies early adopters.",
+        "description": "We help EV startups, dealers, and charging networks cut through greenwashing — with authenticity, tech cred, and community."
+      },
+      "cta": "Accelerate Your Strategy",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "⚡",
+          "title": "Range Anxiety → Range Confidence",
+          "description": "‘How I Drove 400km on One Charge (With AC On!)’ — real-world proof, not brochure promises."
+        },
+        {
+          "icon": "🌍",
+          "title": "Mission-Driven Storytelling",
+          "description": "‘Why We Left Big Auto’ — founder passion, engineering ethics, and environmental urgency."
+        },
+        {
+          "icon": "📱",
+          "title": "Tech-Demo Reels",
+          "description": "‘Watch the battery % climb in real-time at this charger’ — satisfying, shareable, credible."
+        },
+        {
+          "icon": "🤝",
+          "title": "EV Owner Community Building",
+          "description": "Feature user road trips, mods, and tips — turn customers into evangelists."
+        },
+        {
+          "icon": "🎯",
+          "title": "Petrol-to-EV Conversion Content",
+          "description": "‘What I Miss (and What I Don’t) After 1 Year EV’ — speaks directly to skeptics’ fears."
+        },
+        {
+          "icon": "📈",
+          "title": "Total Cost of Ownership Visuals",
+          "description": "Animated infographics: ‘5 Years = ₹2.1L Saved vs Petrol’ — makes the case undeniable."
+        }
+      ],
+      "stats": [
+        "25+ EV Brands",
+        "Avg. 41% Test Drive Uplift",
+        "3.8x Engagement Rate",
+        "4.8/5 Owner Advocacy"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Finance Digital Marketing": {
+      "hero": {
+        "title": "Clarity in a World of Complexity",
+        "subtitle": "Turn jargon into journeys — and prospects into lifelong partners.",
+        "description": "We help fintechs, advisors, and banks build trust through transparency — no hype, just human-first finance."
+      },
+      "cta": "Clarify Your Positioning",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "💡",
+          "title": "Jargon-Free Finance",
+          "description": "‘What Is an SIP? (And Why Your Barista Should Care)’ — relatable, visual, no MBA required."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Compliance-First Creativity",
+          "description": "Pre-approved templates, disclaimer workflows, and platform-specific guardrails — so you can post fearlessly."
+        },
+        {
+          "icon": "🎯",
+          "title": "Psychographic Targeting",
+          "description": "‘The Overwhelmed Millennial’, ‘The Pre-Retirement Planner’ — speak to fears, dreams, and life stages."
+        },
+        {
+          "icon": "📊",
+          "title": "Visual Data Storytelling",
+          "description": "Animated charts: ‘How ₹500/Day Grows to ₹1Cr’ — makes compounding feel magical, not mathematical."
+        },
+        {
+          "icon": "🤝",
+          "title": "Advisor Personality Branding",
+          "description": "‘Why I Quit Wall Street to Help Teachers Retire’ — humanizes expertise and builds connection."
+        },
+        {
+          "icon": "📱",
+          "title": "WhatsApp Community Building",
+          "description": "Daily market pulse + myth-busting — builds habit, trust, and referral loops."
+        }
+      ],
+      "stats": [
+        "80+ Finance Brands",
+        "Avg. 34% Lead Quality Increase",
+        "92% Compliance Approval Rate",
+        "4.7/5 Client Clarity Score"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Construction Digital Marketing": {
+      "hero": {
+        "title": "Build Your Brand Like You Build Projects",
+        "subtitle": "From blueprint to buzz: showcase reliability, safety, and scale.",
+        "description": "We help contractors, developers, and suppliers win bids, attract talent, and stand out — with proof, not promises."
+      },
+      "cta": "Lay Your Marketing Foundation",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🏗️",
+          "title": "Behind-the-Barrier Content",
+          "description": "Hard-hat cam Reels: ‘How We Lifted This 20-Ton Beam in Monsoon’ — drama, skill, and safety in action."
+        },
+        {
+          "icon": "👷",
+          "title": "Team Spotlight Series",
+          "description": "‘Meet Ramesh, Our Crane Operator for 18 Years’ — builds trust, pride, and recruitment appeal."
+        },
+        {
+          "icon": "📊",
+          "title": "Bid-Winning Case Studies",
+          "description": "‘How We Delivered Phase 1 in 90 Days (3 Weeks Early)’ — with timelines, hurdles, and client quotes."
+        },
+        {
+          "icon": "🎯",
+          "title": "Niche Positioning",
+          "description": "‘The Hospital Construction Specialist’, ‘The Sustainable High-Rise Builder’ — attracts premium RFPs."
+        },
+        {
+          "icon": "📱",
+          "title": "Site Progress Timelapses",
+          "description": "Weekly vertical videos — clients and prospects see momentum, reliability, and care."
+        },
+        {
+          "icon": "🤝",
+          "title": "Supplier & Partner Co-Marketing",
+          "description": "Feature steel vendors, architects — builds ecosystem credibility and shared reach."
+        }
+      ],
+      "stats": [
+        "70+ Construction Firms",
+        "Avg. 22% Bid Win Increase",
+        "4.1x Recruitment Inquiries",
+        "4.8/5 Client Trust"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Manufacturing Digital Marketing": {
+      "hero": {
+        "title": "Precision Marketing for Precision Makers",
+        "subtitle": "Highlight innovation, quality, and B2B trust — no buzzwords, just results.",
+        "description": "We help factories, OEMs, and suppliers attract global buyers — by making engineering excellence *visible* and *valuable*."
+      },
+      "cta": "Engineer Your Growth",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "⚙️",
+          "title": "Process Pride Videos",
+          "description": "‘How We Achieve 0.001mm Tolerance’ — close-ups of CNC, QC checks, calibration — beauty in precision."
+        },
+        {
+          "icon": "🌍",
+          "title": "Global Buyer Journey Content",
+          "description": "‘Sourcing from India? Here’s How We Ensure On-Time, On-Spec Delivery’ — addresses real fears."
+        },
+        {
+          "icon": "📊",
+          "title": "ROI-Focused Case Studies",
+          "description": "‘How Our Gearbox Reduced Downtime by 40% for a German Auto Plant’ — with data, not fluff."
+        },
+        {
+          "icon": "🎯",
+          "title": "LinkedIn ABM for Exporters",
+          "description": "Target procurement managers in Germany, USA, UAE with custom content on compliance, logistics, and support."
+        },
+        {
+          "icon": "📱",
+          "title": "Factory Tour Reels",
+          "description": "Vertical, energetic, human — show scale, cleanliness, tech, and team — no boring drone loops."
+        },
+        {
+          "icon": "🤝",
+          "title": "Certification Storytelling",
+          "description": "‘What ISO 9001 *Actually* Means for Your Supply Chain’ — turns compliance into competitive advantage."
+        }
+      ],
+      "stats": [
+        "50+ Manufacturers",
+        "Avg. 37% Lead Quality Uplift",
+        "2.9x Export Inquiry Rate",
+        "4.7/5 Buyer Confidence"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    },
+
+    "Political Campaign Digital Marketing": {
+      "hero": {
+        "title": "Mobilize Movements, Not Just Messages",
+        "subtitle": "Turn sentiment into action — with data, storytelling, and urgency.",
+        "description": "We help candidates, parties, and causes cut through noise, energize volunteers, and drive turnout — ethically and effectively."
+      },
+      "cta": "Activate Your Base",
+      "warningSigns": [
+        {
+          "title": "Lost in Template Hell",
+          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+        },
+        {
+          "title": "Bio Weaker Than Your Pitch Deck",
+          "description": "Your investor pitch deck is stronger than your Instagram bio."
+        },
+        {
+          "title": "Shouting Into the Void",
+          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+        },
+        {
+          "title": "Social = Afterthought",
+          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+        },
+        {
+          "title": "Viral Launch, 3 Likes",
+          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+        },
+        {
+          "title": "Problem Solved, But No One Knows",
+          "description": "You know your product solves a real problem… but no one else seems to notice."
+        }
+      ],
+      "approachHighlights": [
+        {
+          "icon": "🎙️",
+          "title": "Authentic Story Arcs",
+          "description": "‘Why I’m Running: From Teacher to Candidate’ — human, emotional, and repeatable across formats."
+        },
+        {
+          "icon": "🎯",
+          "title": "Micro-Targeted Ad Sequences",
+          "description": "Different messages for swing voters, young first-timers, and disengaged loyalists — all tracked and optimized."
+        },
+        {
+          "icon": "📱",
+          "title": "Volunteer Empowerment Kits",
+          "description": "Pre-made Reels, stories, and captions — so supporters can amplify *on-brand*, effortlessly."
+        },
+        {
+          "icon": "📈",
+          "title": "Real-Time Sentiment Tracking",
+          "description": "Monitor trends, memes, and opposition narratives — and respond within hours, not weeks."
+        },
+        {
+          "icon": "🤝",
+          "title": "Grassroots-to-Global Scaling",
+          "description": "Local event → UGC → paid amplification → national narrative. Turn small wins into momentum."
+        },
+        {
+          "icon": "🗳️",
+          "title": "Action-Driven CTAs",
+          "description": "Every post ends with ONE clear ask: ‘Sign’, ‘Share’, ‘RSVP’, ‘Donate ₹100’ — no vague ‘learn more’."
+        }
+      ],
+      "stats": [
+        "18 Campaigns",
+        "Avg. 3.2x Volunteer Signups",
+        "28% Higher Turnout in Target Wards",
+        "4.9/5 Team Coordination"
+      ],
+        "plans": [
+    {
+      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
+      "term": "3 Months",
+      "description":"Perfect for new businesses or those starting digital transformation.",
+      "features": [
+        "Monthly Strategy",
+        "1 Social Media Platform",
+        "15 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Strategy Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Standard)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "term": "6 Months",
+      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "22 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Report",
+        "Monthly Meeting",
+        "Dedicated Account Manager",
+        "Phone Support",
+        "Emergency Support",
+        "Video Editing (Advanced)"
+      ],
+      "cta": "Start Your Success",
+      "badge": "yehh"
+    },
+    {
+      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "term": "12 Months",
+      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "features": [
+        "Monthly Strategy",
+        "3 Social Media Platforms",
+        "30 Posts Per Month",
+        "20 Minutes Daily Engagement",
+        "Email Support",
+        "Monthly Reports",
+        "Monthly Strategy Calls",
+        "Dedicated Senior Account Manager",
+        "Priority Phone Support",
+        "Emergency Out-of-Hours Support",
+        "Premium Video Editing & Reels",
+        "Trend Integration",
+        "Competitor Insights"
+      ],
+      "cta": "Start Your Success",
+      "badge": "Most Popular"
+    }
+  ]
+    }
+  }
+ 
+}

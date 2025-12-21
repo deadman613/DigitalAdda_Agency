@@ -1,0 +1,39 @@
+/* app/about/about.css */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.6;
+  animation: float 25s infinite linear;
+  pointer-events: none;
+}
+
+.orb1 {
+  width: 600px;
+  height: 600px;
+  background: #9d4edd;
+  top: -10%;
+  left: -10%;
+}
+
+.orb2 {
+  width: 500px;
+  height: 500px;
+  background: #00f5ff;
+  bottom: -15%;
+  ;
+  right: -5%;
+}
+
+.orb3 {
+  width: 400px;
+  height: 400px;
+  background: #ff2bff;
+  top: 20%;
+  right: 10%;
+}
+
+@keyframes float {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(40px, -40px) rotate(360deg); }
+}
