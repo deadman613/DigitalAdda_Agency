@@ -102,24 +102,24 @@ const reportsByCategory = {
 
 const packageTiers = [
   {
-    name: "Silver",
-    badge: "bg-gradient-to-r from-gray-400 to-gray-600",
+    name: "Basic",
+    image: "dapic/basic.png",
     badgeText: "text-gray-900",
     border: "border-gray-400/50",
     glow: "shadow-gray-400/30",
     button: "from-gray-500 to-gray-700 hover:from-gray-400 hover:to-gray-600"
   },
   {
-    name: "Gold",
-    badge: "bg-gradient-to-r from-yellow-400 to-amber-600",
+    name: "Standard",
+    image: "dapic/standard.png",
     badgeText: "text-amber-950",
     border: "border-yellow-500/60",
     glow: "shadow-yellow-500/40",
     button: "from-yellow-500 to-amber-700 hover:from-yellow-400 hover:to-amber-600"
   },
   {
-    name: "Diamond",
-    badge: "bg-gradient-to-r from-cyan-400 to-blue-600",
+    name: "Premium",
+    image: "dapic/Premium.png",
     badgeText: "text-white",
     border: "border-cyan-400/70",
     glow: "shadow-cyan-400/50",
@@ -193,7 +193,7 @@ export default function PackagesPage() {
   }, [activeCategory]);
 
   return (
-    <section className="relative py-16 px-4 sm:px-6 overflow-hidden bg-linear-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e]">
+    <section className="relative py-16 px-4 sm:px-6 overflow-hidden bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e]">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 left-20 w-96 h-96 bg-purple-800/30 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-pink-800/20 rounded-full blur-3xl" />
@@ -208,13 +208,13 @@ export default function PackagesPage() {
           <h2 className="text-4xl md:text-6xl font-black text-white mb-4">
             RESEARCH PACKAGES
           </h2>
-          <div className="w-32 h-1 bg-linear-to-r from-purple-500 to-pink-500 mx-auto rounded-full shadow-lg shadow-purple-500/80" />
+          <div className="w-32 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full shadow-lg shadow-purple-500/80" />
         </div>
 
         {/* Category Navigation */}
         <div className="relative mb-12">
           {canScrollLeft && (
-            <button onClick={() => scrollCategories('left')} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-linear-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+            <button onClick={() => scrollCategories('left')} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
               <ChevronLeft className="w-6 h-6 text-white" />
             </button>
           )}
@@ -225,7 +225,7 @@ export default function PackagesPage() {
                 onClick={() => setActiveCategory(index)}
                 className={`shrink-0 px-4 sm:px-6 py-3 rounded-full font-medium text-sm sm:text-base transition-all duration-300 border whitespace-nowrap ${
                   activeCategory === index
-                    ? 'bg-linear-to-r from-purple-600 to-pink-600 text-white border-transparent shadow-lg shadow-purple-500/50'
+                    ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white border-transparent shadow-lg shadow-purple-500/50'
                     : 'bg-white/5 text-gray-300 border-white/10 hover:border-purple-500/50 hover:bg-white/10'
                 }`}
               >
@@ -234,16 +234,16 @@ export default function PackagesPage() {
             ))}
           </div>
           {canScrollRight && (
-            <button onClick={() => scrollCategories('right')} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-linear-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+            <button onClick={() => scrollCategories('right')} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
               <ChevronRight className="w-6 h-6 text-white" />
             </button>
           )}
         </div>
 
-        {/* Reports Carousel – unchanged */}
+        {/* Reports Carousel */}
         <div className="relative">
           {carouselCanScrollLeft && (
-            <button onClick={() => scrollCarousel('left')} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
+            <button onClick={() => scrollCarousel('left')} className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
               <ChevronLeft className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
             </button>
           )}
@@ -260,31 +260,20 @@ export default function PackagesPage() {
                   className={`group shrink-0 w-[280px] sm:w-80 lg:w-96 relative bg-white/5 backdrop-blur-xl border ${tier.border} rounded-2xl overflow-hidden hover:border-opacity-100 transition-all duration-500 hover:shadow-2xl hover:${tier.glow} snap-center`}
                 >
                   {/* Badge */}
-                  <div className={`absolute top-4 right-4 z-10 px-4 py-2 rounded-full ${tier.badge} shadow-lg flex items-center gap-2`}>
+                  <div className={`absolute top-4 right-4 z-10 px-4 py-2 rounded-full bg-gradient-to-r ${index === 0 ? 'from-gray-400 to-gray-600' : index === 1 ? 'from-yellow-400 to-amber-600' : 'from-cyan-400 to-blue-600'} shadow-lg flex items-center gap-2`}>
                     {index === 0 && <Medal className="w-5 h-5" />}
                     {index === 1 && <Award className="w-5 h-5" />}
                     {index === 2 && <Gem className="w-5 h-5" />}
                     <span className={`text-sm font-bold ${tier.badgeText}`}>{tier.name}</span>
                   </div>
 
-                  {/* Report Cover */}
-                  <div className={`relative h-72 sm:h-80 overflow-hidden bg-linear-to-br ${index === 0 ? 'from-gray-800/80 via-gray-700 to-gray-900/80' : index === 1 ? 'from-yellow-900/80 via-amber-800 to-yellow-900/80' : 'from-cyan-900/80 via-blue-900 to-cyan-900/80'}`}>
-                    <div className="absolute inset-0 bg-black/20" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className={`relative w-48 h-64 ${index === 0 ? 'bg-linear-to-br from-gray-600 to-gray-800' : index === 1 ? 'bg-linear-to-br from-yellow-600 to-amber-700' : 'bg-linear-to-br from-cyan-500 to-blue-700'} rounded-lg shadow-2xl transform group-hover:scale-110 transition-transform duration-500 border-4 ${index === 0 ? 'border-gray-400' : index === 1 ? 'border-yellow-400' : 'border-cyan-300'} overflow-hidden`}>
-                        <div className="absolute inset-0 bg-white/10" />
-                        <div className="relative h-full p-6 flex flex-col justify-between text-white">
-                          <div>
-                            <div className="text-2xl font-black opacity-90">2025</div>
-                            <BookOpen className="w-12 h-12 mt-4 opacity-80" />
-                          </div>
-                          <div className="text-right">
-                            <div className="text-lg font-bold uppercase tracking-widest">Market</div>
-                            <div className="text-lg font-bold uppercase tracking-widest">Report</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  {/* Package Image */}
+                  <div className="relative h-72 sm:h-80 overflow-hidden bg-black/20">
+                    <img 
+                      src={tier.image} 
+                      alt={`${tier.name} Package`}
+                      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
 
                   {/* Details */}
@@ -302,7 +291,7 @@ export default function PackagesPage() {
                     <h3 className="text-white font-bold text-base sm:text-lg mb-4 line-clamp-2 group-hover:text-purple-300 transition-colors">
                       {report.title}
                     </h3>
-                    <button className={`w-full py-3 bg-linear-to-r ${tier.button} text-white font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300`}>
+                    <button className={`w-full py-3 bg-gradient-to-r ${tier.button} text-white font-bold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300`}>
                       View Details
                     </button>
                   </div>
@@ -311,7 +300,7 @@ export default function PackagesPage() {
             })}
           </div>
           {carouselCanScrollRight && (
-            <button onClick={() => scrollCarousel('right')} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-linear-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
+            <button onClick={() => scrollCarousel('right')} className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
               <ChevronRight className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
             </button>
           )}
