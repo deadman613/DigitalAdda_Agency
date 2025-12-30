@@ -95,7 +95,7 @@
     return (
       <>
         {/* ===== VIDEO BACKGROUND SECTION ===== */}
-        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-8 md:pt-12 lg:pt-16">
+        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-20 md:pt-12 lg:pt-16">
           <div className="max-w-screen-2xl mx-auto px-4">
             {/* MOBILE: Stack videos vertically */}
             <div className="grid grid-cols-1 pt-10 md:grid-cols-2 gap-6">

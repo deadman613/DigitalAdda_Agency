@@ -98,9 +98,8 @@ export default function Header() {
             {!imageError ? (
               <img
                 src="/DAFINAL.png"
-                // src="/final logo.png"
                 alt="Digital Adda"
-                className="h-15 w-auto ml-10 md:ml-18   scale-300 md:scale-400"
+                className="h-15 w-auto ml-10 md:ml-18 scale-300 md:scale-400"
                 onError={() => setImageError(true)}
               />
             ) : (
@@ -129,7 +128,7 @@ export default function Header() {
                     )}
                   </Link>
 
-                  {/* Desktop Dropdown - NO GAP */}
+                  {/* Desktop Dropdown */}
                   {hasDropdown && openDropdown === item.name && (
                     <div className="absolute left-0 pt-0 top-full w-64">
                       <div className="bg-gray-900/98 backdrop-blur-sm rounded-lg shadow-2xl py-2 border border-purple-500/20">
@@ -252,169 +251,172 @@ export default function Header() {
         </div>
       </div>
 
-      {/* POPUP FORM OVERLAY */}
-     {popupOpen && (
-  <div
-    className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
-    onClick={(e) => {
-      if (e.target === e.currentTarget) {
-        setPopupOpen(false);
-        setShowSuccess(false);
-      }
-    }}
-  >
-   {popupOpen && (
-  <div
-    className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
-    onClick={(e) => {
-      if (e.target === e.currentTarget) {
-        setPopupOpen(false);
-        setShowSuccess(false);
-      }
-    }}
-  >
-    {/* Container with hidden scrollbar */}
-    <div className="w-full max-w-md max-h-[90vh] overflow-y-auto hide-scrollbar">
-      <div className="bg-gradient-to-b from-gray-900 to-purple-900/50 rounded-3xl p-6 md:p-8 relative border border-purple-500/30 shadow-2xl">
-        {/* Close Button */}
-        <button
-          onClick={() => {
-            setPopupOpen(false);
-            setShowSuccess(false);
+      {/* POPUP FORM OVERLAY - RESPONSIVE LANDSCAPE/VERTICAL */}
+      {popupOpen && (
+        <div
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setPopupOpen(false);
+              setShowSuccess(false);
+            }
           }}
-          className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition-all duration-300 hover:rotate-90"
         >
-          <X className="w-5 h-5 md:w-6 md:h-6" />
-        </button>
-
-        {!showSuccess ? (
-          <>
-            <div className="text-center mb-5">
-              <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent mb-2">
-                Get Free Consultation
-              </h2>
-              <p className="text-gray-300 text-sm">
-                Let's discuss how we can help grow your business
-              </p>
-            </div>
-
-            <form onSubmit={handleSubmit} className="space-y-4">
-              {['name', 'email', 'phone', 'service', 'message'].map((field) => (
-                <div key={field}>
-                  <label className="block text-white text-sm font-medium mb-2">
-                    {field === 'name' && 'Full Name *'}
-                    {field === 'email' && 'Email Address *'}
-                    {field === 'phone' && 'Phone Number'}
-                    {field === 'service' && 'Service Interested In *'}
-                    {field === 'message' && 'Tell us about your project'}
-                  </label>
-                  {field === 'service' ? (
-                    <select
-                      name="service"
-                      required
-                      className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition appearance-none text-sm"
-                    >
-                      <option value="">Select a service</option>
-                      <option value="digital-marketing">Digital Marketing</option>
-                      <option value="ai-integration">AI Integration</option>
-                      <option value="vr-development">VR Development</option>
-                      <option value="brand-strategy">Brand Strategy</option>
-                      <option value="seo">SEO & Content</option>
-                      <option value="social-media">Social Media Marketing</option>
-                      <option value="web-development">Web Development</option>
-                      <option value="other">Other</option>
-                    </select>
-                  ) : field === 'message' ? (
-                    <textarea
-                      name="message"
-                      rows="2"
-                      placeholder="Describe your requirements..."
-                      className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition resize-none text-sm"
-                    ></textarea>
-                  ) : (
-                    <input
-                      type={field === 'email' ? 'email' : field === 'phone' ? 'tel' : 'text'}
-                      name={field}
-                      required={field !== 'phone'}
-                      placeholder={
-                        field === 'name'
-                          ? 'John Doe'
-                          : field === 'email'
-                          ? 'john@example.com'
-                          : '+91 **********'
-                      }
-                      className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition text-sm"
-                    />
-                  )}
-                </div>
-              ))}
-
+          {/* Container - wider on desktop, narrow on mobile */}
+          <div className="w-full max-w-md md:max-w-3xl lg:max-w-4xl max-h-[90vh] overflow-y-auto hide-scrollbar">
+            <div className="bg-gradient-to-b from-gray-900 to-purple-900/50 rounded-3xl p-6 md:p-8 relative border border-purple-500/30 shadow-2xl">
+              {/* Close Button */}
               <button
-                type="submit"
-                className="w-full py-3 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl font-semibold text-white shadow-lg hover:scale-[1.02] transition-transform duration-300 text-sm md:text-base"
+                onClick={() => {
+                  setPopupOpen(false);
+                  setShowSuccess(false);
+                }}
+                className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center transition-all duration-300 hover:rotate-90 z-10"
               >
-                Send Message
+                <X className="w-5 h-5 md:w-6 md:h-6" />
               </button>
-            </form>
-          </>
-        ) : (
-          <div className="text-center py-6">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-2xl md:text-4xl text-white">✓</span>
+
+              {!showSuccess ? (
+                <>
+                  <div className="text-center mb-6 md:mb-8">
+                    <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent mb-2">
+                      Get Free Consultation
+                    </h2>
+                    <p className="text-gray-300 text-sm md:text-base">
+                      Let's discuss how we can help grow your business
+                    </p>
+                  </div>
+
+                  <form onSubmit={handleSubmit} className="space-y-4">
+                    {/* Grid layout: 1 column on mobile, 2 columns on desktop */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {/* Full Name */}
+                      <div>
+                        <label className="block text-white text-sm font-medium mb-2">
+                          Full Name *
+                        </label>
+                        <input
+                          type="text"
+                          name="name"
+                          required
+                          placeholder="John Doe"
+                          className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition text-sm"
+                        />
+                      </div>
+
+                      {/* Email */}
+                      <div>
+                        <label className="block text-white text-sm font-medium mb-2">
+                          Email Address *
+                        </label>
+                        <input
+                          type="email"
+                          name="email"
+                          required
+                          placeholder="john@example.com"
+                          className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition text-sm"
+                        />
+                      </div>
+
+                      {/* Phone */}
+                      <div>
+                        <label className="block text-white text-sm font-medium mb-2">
+                          Phone Number
+                        </label>
+                        <input
+                          type="tel"
+                          name="phone"
+                          placeholder="+91 **********"
+                          className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition text-sm"
+                        />
+                      </div>
+
+                      {/* Service */}
+                      <div>
+                        <label className="block text-white text-sm font-medium mb-2">
+                          Service Interested In *
+                        </label>
+                        <select
+                          name="service"
+                          required
+                          className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition appearance-none text-sm"
+                        >
+                          <option value="">Select a service</option>
+                          <option value="digital-marketing">Digital Marketing</option>
+                          <option value="ai-integration">AI Integration</option>
+                          <option value="vr-development">VR Development</option>
+                          <option value="brand-strategy">Brand Strategy</option>
+                          <option value="seo">SEO & Content</option>
+                          <option value="social-media">Social Media Marketing</option>
+                          <option value="web-development">Web Development</option>
+                          <option value="other">Other</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    {/* Message - Full width */}
+                    <div>
+                      <label className="block text-white text-sm font-medium mb-2">
+                        Tell us about your project
+                      </label>
+                      <textarea
+                        name="message"
+                        rows="3"
+                        placeholder="Describe your requirements..."
+                        className="w-full px-4 py-2.5 md:py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition resize-none text-sm"
+                      ></textarea>
+                    </div>
+
+                    <button
+                      type="submit"
+                      className="w-full py-3 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl font-semibold text-white shadow-lg hover:scale-[1.02] transition-transform duration-300 text-sm md:text-base"
+                    >
+                      Send Message
+                    </button>
+                  </form>
+                </>
+              ) : (
+                <div className="text-center py-6 md:py-12">
+                  <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl md:text-4xl text-white">✓</span>
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Thank You!</h3>
+                  <p className="text-gray-300 text-sm md:text-base px-2">
+                    We've received your message and will get back to you within 24 hours.
+                  </p>
+                </div>
+              )}
             </div>
-            <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Thank You!</h3>
-            <p className="text-gray-300 text-sm px-2">
-              We've received your message and will get back to you within 24 hours.
-            </p>
           </div>
-        )}
-      </div>
-    </div>
-  </div>
-)}
-  </div>
-)}
+        </div>
+      )}
 
-   {/* FLOATING WHATSAPP BUTTON — now on the right */}
-<a
-  href="https://wa.me/1234567890"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300"
->
-  <img className="w-8 h-8" src="/social.png" alt="WhatsApp" />
-</a>
+      {/* FLOATING WHATSAPP BUTTON */}
+      <a
+        href="https://wa.me/9355121681"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300"
+      >
+        <img className="w-8 h-8" src="/social.png" alt="WhatsApp" />
+      </a>
 
-{/* AI CHATBOT TOGGLE BUTTON — also on the right, slightly above WhatsApp */}
-<div
-  onClick={() => setChatOpen(!chatOpen)}
-  className="fixed bottom-24 right-6 z-50 cursor-pointer group"
->
-  <div className="bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300">
-    <img className="w-8 h-8" src="/robot.png" alt="AI Assistant" />
-  </div>
-</div>
-
-      {/* AI CHATBOT TOGGLE BUTTON
+      {/* AI CHATBOT TOGGLE BUTTON */}
       <div
         onClick={() => setChatOpen(!chatOpen)}
-        className="fixed bottom-6 left-6 z-50 cursor-pointer group"
+        className="fixed bottom-24 right-6 z-50 cursor-pointer group"
       >
         <div className="bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300">
-           <img 
-    className="w-8 h-8" 
-    src="/robot.png" 
-    alt="WhatsApp" 
-  />
+          <img className="w-8 h-8" src="/robot.png" alt="AI Assistant" />
         </div>
-      </div> */}
+      </div>
 
       {/* AI CHATBOT PANEL */}
-    <div
-  className={`fixed bottom-24 right-6 z-50 w-96 h-[500px] bg-gray-900 rounded-2xl shadow-2xl border border-purple-500/30 transform transition-all duration-300 ${
-    chatOpen ? "scale-100 opacity-100" : "scale-95 opacity-0 pointer-events-none"
-  }`}
->
+      <div
+        className={`fixed bottom-24 right-6 z-50 w-96 h-[500px] bg-gray-900 rounded-2xl shadow-2xl border border-purple-500/30 transform transition-all duration-300 ${
+          chatOpen ? "scale-100 opacity-100" : "scale-95 opacity-0 pointer-events-none"
+        }`}
+      >
         {/* HEADER */}
         <div className="bg-linear-to-r from-purple-600 to-indigo-600 p-4 rounded-t-2xl flex items-center justify-between">
           <span className="text-white font-bold text-lg">AI Assistant</span>
@@ -453,6 +455,16 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .hide-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
     </>
   );
 }
