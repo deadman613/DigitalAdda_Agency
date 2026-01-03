@@ -1039,125 +1039,128 @@
 
     "CA Digital Marketing": {
       "hero": {
-        "title": "More Than Numbers — You’re the Navigator",
-        "subtitle": "Position yourself as the trusted advisor in a sea of spreadsheets.",
-        "description": "We help CAs build authority, attract high-value clients, and stand out — without sounding salesy or generic."
+        "title": "Why Choose Us?",
+        "subtitle": "Premium, Powerful, AI-Driven Digital Marketing for CA Firms",
+        "description": "Why CA Firms Trust DigitalAdda Agency"
       },
       "cta": "Audit Your Authority",
       "warningSigns": [
         {
-          "title": "Lost in Template Hell",
-          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+          "icon": "🧡",
+          "title": "Trust-First Communication",
+          "description": "We position your CA firm as a reliable advisor, not a salesman — turning visitors into long-term clients."
         },
         {
-          "title": "Bio Weaker Than Your Pitch Deck",
-          "description": "Your investor pitch deck is stronger than your Instagram bio."
+          "icon": "📢",
+          "title": "Authority & Consistency",
+          "description": "We build a strong professional voice across Google, LinkedIn, Instagram, and your website — ensuring consistent credibility."
         },
         {
-          "title": "Shouting Into the Void",
-          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+          "icon": "📈",
+          "title": "Compliance-Friendly, Data-Driven Strategy",
+          "description": "All content is carefully structured, regulation-aware, and backed by analytics for continuous improvement."
         },
         {
-          "title": "Social = Afterthought",
-          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+          "icon": "🎨",
+          "title": "Clean & Professional Creative Design",
+          "description": "From website visuals to social media posts, everything reflects clarity, professionalism, and expertise."
         },
         {
-          "title": "Viral Launch, 3 Likes",
-          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+          "icon": "⚡",
+          "title": "Timely & Relevant Content",
+          "description": "Budget updates, tax deadlines, GST changes, and compliance alerts — we keep your firm visible when clients need you most."
         },
         {
-          "title": "Problem Solved, But No One Knows",
-          "description": "You know your product solves a real problem… but no one else seems to notice."
+          "icon": "🌐",
+          "title": "Multi-Channel Presence",
+          "description": "Google My Business, Website SEO, LinkedIn, Instagram, WhatsApp — tailored strategies for each platform to attract the right clients."
         }
       ],
       "approachHighlights": [
         {
-          "icon": "🧮",
-          "title": "Myth-Busting Shorts",
-          "description": "‘No, GST won’t bankrupt your startup’ — quick, confident, shareable truth bombs."
+          "icon": "🔥",
+          "title": "AI-Powered Strategies That Generate Qualified Leads",
+          "description": "At DigitalAdda Agency, we don’t guess — we analyze. Using advanced AI-driven analytics, we study search intent, client behavior, and local demand to attract high-intent clients for taxation, GST, audit, compliance, and advisory services."
+        },
+        {
+          "icon": "🎥",
+          "title": "Next-Gen Digital Experiences for Professional Trust",
+          "description": "We create modern, trust-focused digital experiences using interactive visuals, explainer videos, and virtual walkthroughs that clearly communicate your expertise and credibility to potential clients."
+        },
+        {
+          "icon": "🎨",
+          "title": "Professional & Consistent Brand Identity",
+          "description": "Your CA firm’s brand must reflect trust, authority, and reliability. We design clean, premium, and professional brand identities that position you as a credible expert in your domain."
         },
         {
           "icon": "🚀",
-          "title": "Startup Growth Partner Positioning",
-          "description": "Content like: ‘3 Financial Red Flags VCs Spot in Your Pitch Deck’ — you’re the secret weapon."
+          "title": "Content That Educates, Builds Trust & Converts",
+          "description": "We create informative, easy-to-understand content around taxation updates, GST compliance, audits, and financial planning — helping clients trust you before they contact you."
         },
         {
-          "icon": "🎯",
-          "title": "Niche Authority Building",
-          "description": "‘The E-Commerce CA’, ‘The SaaS Tax Strategist’ — specialization attracts premium clients."
-        },
-        {
-          "icon": "🤝",
-          "title": "Client Journey Transparency",
-          "description": "‘How We Helped a D2C Brand Save ₹18L in Tax’ — anonymized, detailed, credible."
-        },
-        {
-          "icon": "📱",
-          "title": "WhatsApp-First Lead Nurturing",
-          "description": "Broadcast value (e.g., ‘New TDS rule alert’) — then invite to 1:1 consult. Low friction, high trust."
+          "icon": "🧠",
+          "title": "Human Expertise Enhanced by AI Precision",
+          "description": "We combine human understanding of finance and compliance with AI-powered optimization to deliver content that is accurate, compliant, engaging, and conversion-focused."
         },
         {
           "icon": "📈",
-          "title": "Referral Engine Design",
-          "description": "‘Refer a Founder, Get a Free Cap Table Review’ — turns happy clients into your salesforce."
+          "title": "Performance You Can Measure & Rely On",
+          "description": "Every campaign is tracked with real-time data — website traffic, inquiry calls, WhatsApp leads, and appointment bookings — ensuring transparent growth and ROI."
         }
       ],
       "stats": [
-        "60+ CAs & Firms",
-        "Avg. ₹5.2L Client Value",
-        "89% Referral Rate",
-        "4.7/5 Client Trust"
+        "Years of Experience 15+",
+        "Professional Firms Served 1,000+",
+        "Client Satisfaction Rate 99%",
+        "Successfully Delivered Projects 500+"
       ],
         "plans": [
     {
-      "name": " 3-MONTHs PLAN (Starter Growth Foundation)",
+      "name": "3-Month Packages (Quick Visibility Boost)",
       "term": "3 Months",
-      "description":"Perfect for new businesses or those starting digital transformation.",
+      "description": "Basic Plan — ₹19,999 / Month (3 Months). Ideal for a fast, professional online presence and initial growth.",
       "features": [
         "Monthly Strategy",
-        "1 Platform (Google / Instagram / LinkedIn)",
-        "15 Posts Per Month",
+        "3 Platform (Google / Instagram / LinkedIn)*",
         "12 Professional Posts",
         "Basic Engagement",
         "Email Support",
         "Monthly Report",
         "Dedicated Account Manager"
-        
       ],
       "cta": "Start Your Success",
       "badge": "yehh"
     },
     {
-      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
+      "name": "6-Month Packages (Steady Growth Phase)",
       "term": "6 Months",
-      "description": "Ideal for businesses wanting consistent, predictable growth.",
+      "description": "Growth Plan — ₹17,999 / Month (6 Months, 10% Discount). Designed for steady visibility, authority building, and lead generation.",
       "features": [
-        "Monthly Strategy",
-        "3 Social Media Platforms",
-        "22 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Report",
-        "Monthly Meeting",
-        "Dedicated Account Manager",
-        "Phone Support",
-        "Emergency Support",
-        "Video Editing (Advanced)"
+        "Monthly Strategy & Planning",
+        "Multi-Platform Presence (2 Platforms)",
+        "Professional Content Creation",
+        "Reels & Short Video Support",
+        "6–8 Reels per Month (Editing + Optimization)",
+        " Engagement & Community Building",
+        " Lead Optimization",
+        " Performance Tracking & Reporting",
+        " AI + Human Expertise",
+        " Support & Management"
       ],
       "cta": "Start Your Success",
       "badge": "yehh"
     },
     {
-      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
+      "name": "12-Month Packages (Complete CA Firm Digital Transformation)",
       "term": "12 Months",
-      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
+      "description": "Growth Plan — ₹196,000 / Year (18% Savings). All features plus high-priority support and quarterly strategy upgrades for full digital transformation.",
       "features": [
         "Quarterly Strategy Refresh",
-        "30 Posts Per Month",
+        "30 Monthly Posts",
         "3 Platforms",
         "Daily Engagement",
         "Priority Support",
-        "Unlimited Reels Editing",
+        "200 Reels Editing",
         "Monthly Performance Reports",
         "Compliance-Based Content",
         "AI-Driven Insights",
@@ -1171,74 +1174,74 @@
 
     "Lawyer Digital Marketing": {
       "hero": {
-        "title": "Authority You Can’t Ignore",
-        "subtitle": "Win cases *and* clients with content that commands respect and trust.",
-        "description": "Ethical, compelling storytelling that positions you as the obvious choice — before the first consultation."
+        "title": "Why Choose Us?",
+        "subtitle": "— Premium, Ethical & AI-Driven Digital Marketing for Law Firms —",
+        "description": "Why Law Firms Trust DigitalAdda Agency"
       },
       "cta": "Build Your Legal Legacy",
       "warningSigns": [
         {
-          "title": "Lost in Template Hell",
-          "description": "You’re spending more time tweaking Canva templates than talking to customers."
+          "title": "Trust-First Legal Communication",
+          "description": "We position your firm as a reliable legal advisor, not a salesman — helping clients feel confident before reaching out."
         },
         {
-          "title": "Bio Weaker Than Your Pitch Deck",
-          "description": "Your investor pitch deck is stronger than your Instagram bio."
+          "title": "Consistent Legal Authority Across Platforms",
+          "description": "We build a strong, recognizable presence on Google, LinkedIn, your website, and local search — reinforcing credibility everywhere clients look."
         },
         {
-          "title": "Shouting Into the Void",
-          "description": "Growth feels like shouting into an empty TechCrunch comment section."
+          "title": "Ethical & Regulation-Friendly Strategy",
+          "description": "All content is designed to align with legal advertising guidelines while remaining informative and engaging."
         },
         {
-          "title": "Social = Afterthought",
-          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
+          "title": "Clean, Professional Visual Identity",
+          "description": "Every design element reflects seriousness, professionalism, and trust — no flashy or misleading creatives."
         },
         {
-          "title": "Viral Launch, 3 Likes",
-          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
+          "title": "Timely Legal Content",
+          "description": "Law updates, amendments, deadlines, and awareness campaigns — ensuring relevance and visibility when it matters most."
         },
         {
-          "title": "Problem Solved, But No One Knows",
-          "description": "You know your product solves a real problem… but no one else seems to notice."
+          "title": "Multi-Channel Legal Visibility",
+          "description": "Google My Business, Local SEO, Website Optimization, LinkedIn, WhatsApp — tailored strategies to attract the right legal clients."
         }
       ],
       "approachHighlights": [
         {
-          "icon": "⚖️",
-          "title": "Plain-English Law Breakdowns",
-          "description": "‘What the New Data Law Means for Your Startup’ — no jargon, just clarity and confidence."
+          "icon": "🔥",
+          "title": "AI-Powered Lead Generation for Legal Services",
+          "description": "At DigitalAdda Agency, we use AI-driven analytics to identify high-intent legal queries, location-based demand, and client behavior. Our strategies attract genuine legal inquiries for civil, criminal, corporate, family, property, and corporate law practices."
         },
         {
-          "icon": "🛡️",
-          "title": "Ethical Storytelling Framework",
-          "description": "Anonymized case studies with emotional arcs: challenge → strategy → outcome → lesson."
+          "icon": "🎥",
+          "title": "Next-Gen Digital Presence for Legal Credibility",
+          "description": "We build authoritative digital experiences through professional websites, legal explainer videos, and virtual consultations that establish trust before the first call."
         },
         {
-          "icon": "🎯",
-          "title": "Niche Dominance",
-          "description": "‘The Crypto Divorce Lawyer’, ‘The SaaS IP Specialist’ — specificity builds authority and searchability."
+          "icon": "🎨",
+          "title": "Professional & Ethical Brand Identity",
+          "description": "Your law firm’s digital presence must reflect integrity, authority, and trust. We design clean, premium, and regulation-compliant branding that positions you as a credible legal expert."
         },
         {
-          "icon": "📱",
-          "title": "Reels That Pre-Qualify Clients",
-          "description": "‘3 Signs You Need a Prenup (Even If You’re Broke)’ — attracts ideal clients, repels tire-kickers."
+          "icon": "🚀",
+          "title": "Content That Educates & Builds Authority",
+          "description": "We create informative legal content — rights awareness, legal processes, FAQs, and case-type explainers — that educates clients while positioning your firm as a thought leader."
+        },
+        {
+          "icon": "🧠",
+          "title": "Human Legal Understanding Powered by AI Precision",
+          "description": "We blend human insight into legal communication with AI-powered content optimization to ensure clarity, compliance, and high engagement without compromising ethics."
         },
         {
           "icon": "📈",
-          "title": "Consultation Conversion Funnels",
-          "description": "Free guide (e.g., ‘5 Contract Clauses That Sink Startups’) → email → Calendly → high-intent consult."
-        },
-        {
-          "icon": "🤝",
-          "title": "Bar Association + Social Credibility",
-          "description": "Blend traditional credentials (awards, panels) with modern proof (client testimonials, media features)."
+          "title": "Transparent Performance You Can Trust",
+          "description": "Every campaign is tracked through real-time analytics — website inquiries, consultation requests, call tracking, and local search visibility — ensuring complete transparency and measurable ROI."
         }
       ],
       "stats": [
-        "45+ Lawyers & Firms",
-        "Avg. 12 Qualified Leads/Month",
-        "76% Consult-to-Client Rate",
-        "4.9/5 Client Confidence"
+        "Years of Experience 15+",
+        "Legal Professionals & Firms Served 800+",
+        "Client Satisfaction Rate 99%",
+        "Successfully Delivered Projects 500+"
       ],
         "plans": [
     {
