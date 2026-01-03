@@ -34,7 +34,7 @@
 
     const videoOptions = {
       tech: [
-        { id: 'tech1', label: 'AI Innovation', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+        { id: 'work', label: 'work', url: 'video/1.mp4' },
         { id: 'tech2', label: 'Future Computing', url: 'https://www.w3schools.com/html/movie.mp4' },
         { id: 'tech3', label: 'Digital World', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
       ],
@@ -68,7 +68,7 @@
     const [rightMuted, setRightMuted] = useState(true);
 
     const categories = [
-      { id: 'tech', label: 'Technology' },
+      { id: 'tech', label: 'Work' },
       { id: 'nature', label: 'Nature' },
       { id: 'urban', label: 'Urban' },
       { id: 'art', label: 'Art' }
@@ -91,6 +91,16 @@
     const toggleRightPlay = () => setRightPlaying(!rightPlaying);
     const toggleLeftMute = () => setLeftMuted(!leftMuted);
     const toggleRightMute = () => setRightMuted(!rightMuted);
+      // Video style to prevent cutting
+      const videoStyle = {
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover', // or 'cover' if you want to fill the area
+        background: '#000',
+        display: 'block',
+        maxHeight: '100vh',
+        maxWidth: '100vw',
+      };
 
     return (
       <>
@@ -109,7 +119,7 @@
                   loop
                   muted={leftMuted}
                   playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
+                    style={videoStyle}
                 >
                   <source src={leftVideo.url} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -203,7 +213,7 @@
                   loop
                   muted={rightMuted}
                   playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
+                    style={videoStyle}
                 >
                   <source src={rightVideo.url} type="video/mp4" />
                   Your browser does not support the video tag.
