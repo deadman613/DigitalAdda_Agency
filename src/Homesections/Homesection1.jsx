@@ -205,7 +205,7 @@
               </div>
 
               {/* RIGHT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px]  shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={rightVideo.id}
@@ -240,7 +240,7 @@
                   </div>
 
                   <div className="text-center text-white">
-                    <h3 className="text-2xl sm:text-4xl font-bold uppercase tracking-wide mb-2">
+                    <h3 className="text-2xl sm:text-2xl font-bold uppercase tracking-wide mb-2">
                       {categories.find(c => c.id === rightCategory)?.label}
                     </h3>
                     <p className="text-sm sm:text-lg">{rightVideo.label}</p>
@@ -249,7 +249,7 @@
 
                 {/* Dropdown Header (centered) */}
                 <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-3 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 shadow-lg">
-                  <h4 className="text-sm sm:text-[10px] md:text-2xl font-extrabold text-white">Our Growth Vision</h4>
+                  <h4 className="text-sm max-w-[2xl] sm:text-[5px] md:text-2xl font-extrabold text-white">Our Growth Vision</h4>
                   <div className="relative">
                     <button
                       onClick={() => setRightDropdownOpen(!rightDropdownOpen)}
