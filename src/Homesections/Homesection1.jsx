@@ -98,7 +98,7 @@
         objectFit: 'cover', // or 'cover' if you want to fill the area
         background: '#000',
         display: 'block',
-        maxHeight: '100vh',
+        maxHeight: '120vh',
         maxWidth: '100vw',
       };
 
@@ -111,7 +111,7 @@
             <div className="grid grid-cols-1 pt-10 md:grid-cols-2 gap-6">
 
               {/* LEFT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px] shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={leftVideo.id}
@@ -205,7 +205,7 @@
               </div>
 
               {/* RIGHT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px] shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={rightVideo.id}
