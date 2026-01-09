@@ -111,7 +111,7 @@
             <div className="grid grid-cols-1 pt-10 md:grid-cols-2 gap-6">
 
               {/* LEFT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[220px] sm:h-[300px] md:aspect-video md:h-auto shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={leftVideo.id}
@@ -154,8 +154,8 @@
                 </div>
 
                 {/* Dropdown Header (centered) */}
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-3 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 shadow-lg">
-                  <h4 className="text-sm sm:text-lg md:text-2xl font-extrabold text-white">Your Business</h4>
+                <div className="absolute top-2 sm:top-4 md:top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-3 bg-black/60 backdrop-blur-md rounded-full px-2 sm:px-4 py-1 sm:py-2 shadow-lg max-w-[90vw]">
+                  <h4 className="text-xs sm:text-lg md:text-2xl font-extrabold text-white truncate max-w-[120px] sm:max-w-none">Your Business</h4>
                   <div className="relative">
                     <button
                       onClick={() => setLeftDropdownOpen(!leftDropdownOpen)}
@@ -166,7 +166,7 @@
                     </button>
 
                     {leftDropdownOpen && (
-                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-hidden border border-white/20 z-30">
+                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-[90vw] max-w-xs sm:max-w-sm md:w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-y-auto max-h-60 border border-white/20 z-30">
                         {categories.map((category) => (
                           <div key={category.id}>
                             <button
@@ -205,7 +205,7 @@
               </div>
 
               {/* RIGHT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[600px]  shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[220px] sm:h-[300px] md:aspect-video md:h-auto shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={rightVideo.id}
@@ -248,8 +248,8 @@
                 </div>
 
                 {/* Dropdown Header (centered) */}
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-3 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 shadow-lg">
-                  <h4 className="text-sm max-w-[2xl] sm:text-[5px] md:text-2xl font-extrabold text-white">Our Growth Vision</h4>
+                <div className="absolute top-2 sm:top-4 md:top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-3 bg-black/60 backdrop-blur-md rounded-full px-2 sm:px-4 py-1 sm:py-2 shadow-lg max-w-[90vw]">
+                  <h4 className="text-xs sm:text-lg md:text-2xl font-extrabold text-white truncate max-w-[120px] sm:max-w-none">Our Growth Vision</h4>
                   <div className="relative">
                     <button
                       onClick={() => setRightDropdownOpen(!rightDropdownOpen)}
@@ -260,7 +260,7 @@
                     </button>
 
                     {rightDropdownOpen && (
-                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-hidden border border-white/20 z-30">
+                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-[90vw] max-w-xs sm:max-w-sm md:w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-y-auto max-h-60 border border-white/20 z-30">
                         {categories.map((category) => (
                           <div key={category.id}>
                             <button
@@ -301,10 +301,13 @@
           </div>
         </section>
 
+       
+
         {/* ===== HEADING + CONTENT SECTION ===== */}
         <section className="relative bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-12 pb-16 md:py-24">
           <div className="px-4 md:px-8 max-w-5xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-5xl md:text-7xl pt-10 font-extrabold text-white leading-tight">
+          {/* <h4 className="text-white text-[4.5rem]">my name is deepanshu soni</h4> */}
+            <h1 className="text-3xl sm:text-5xl md:text-7xl pt-20 font-extrabold text-white leading-tight">
               AI & VR Integrated
               <br />
               <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
