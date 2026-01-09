@@ -105,7 +105,7 @@
     return (
       <>
         {/* ===== VIDEO BACKGROUND SECTION ===== */}
-        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-20 md:pt-12 lg:pt-16">
+        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pb-0 pt-20 md:pt-12 lg:pt-16">
           <div className="max-w-screen-2xl mx-auto px-4">
             {/* MOBILE: Stack videos vertically */}
             <div className="grid grid-cols-1 pt-10 md:grid-cols-2 gap-6">
@@ -306,7 +306,7 @@
         {/* ===== HEADING + CONTENT SECTION ===== */}
         <section className="relative bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-12 pb-16 md:py-24">
           <div className="px-4 md:px-8 max-w-5xl mx-auto text-center">
-          {/* <h4 className="text-white text-[4.5rem]">my name is deepanshu soni</h4> */}
+          <h4 className="text-white text-[2.5rem] md:text-[4.5rem] "> <i>“Results come from execution.”</i></h4>
             <h1 className="text-3xl sm:text-5xl md:text-7xl pt-20 font-extrabold text-white leading-tight">
               AI & VR Integrated
               <br />
