@@ -39,7 +39,7 @@
         { id: 'tech3', label: 'Digital World', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
       ],
       nature: [
-        { id: 'nature1', label: 'Ocean Waves', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
+        { id: 'client', label: 'client', url: 'video/client.mp4' },
         { id: 'nature2', label: 'Mountain Vista', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
         { id: 'nature3', label: 'Forest Path', url: 'https://www.w3schools.com/html/movie.mp4' }
       ],

@@ -14,7 +14,7 @@ export default function Header() {
   const navItems = [
     { name: "Services", hasDropdown: true, href: "/services" },
     { name: "Industries", hasDropdown: true, href: "/" },
-    { name: "Portfolio", hasDropdown: true, href: "/portfolio" },
+    { name: "Portfolio", hasDropdown: true, href: "/Portfolio" },
     { name: "About", hasDropdown: false, href: "/Aboutus" },
     { name: "blog", hasDropdown: false, href: "/blog" },
   ];
@@ -46,13 +46,7 @@ export default function Header() {
       { name: "Manufacturing Digital Marketing", href: "/industries/manufacturing" },
       { name: "Political Campaign Digital Marketing", href: "/industries/political" },
     ],
-    Portfolio: [
-      { name: "Case Studies", href: "/portfolio/case-studies" },
-      { name: "Reviews and Testimonials", href: "/portfolio/reviews" },
-      { name: "Google and Portfolio", href: "/portfolio/google" },
-      { name: "Facebook and Portfolio", href: "/portfolio/facebook" },
-      { name: "SEO Portfolio", href: "/portfolio/seo" },
-    ],
+    
   };
 
   // Auto-open popup after 1 minute
