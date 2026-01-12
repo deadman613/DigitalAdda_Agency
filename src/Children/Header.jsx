@@ -20,15 +20,24 @@ export default function Header() {
   ];
 
   const dropdownData = {
-    Services: [
-      { name: "E-commerce", href: "/services/ecommerce" },
-      { name: "Paid Advertising", href: "/services/paid-advertising" },
-      { name: "SEO", href: "/services/seo" },
-      { name: "White Lable", href: "/services/white-label" },
-      { name: "Content Marketing", href: "/services/content-marketing" },
-      { name: "SMO", href: "/services/smo" },
-      { name: "CRO", href: "/services/cro" },
-    ],
+ Services: [
+  { name: "Search Engine Optimization", href: "/services/seo" },
+  { name: "Website Designing", href: "/services/website-designing" },
+  { name: "Graphic Design", href: "/services/graphic-design" },
+  { name: "Professional Video Editing", href: "/services/video-editing" },
+  { name: "Local SEO", href: "/services/local-seo" },
+  { name: "Content Writing", href: "/services/content-writing" },
+  { name: "Affiliate Marketing", href: "/services/affiliate-marketing" },
+  { name: "Influencer Marketing", href: "/services/influencer-marketing" },
+  { name: "Social Media Marketing", href: "/services/social-media-marketing" },
+  { name: "Pay Per Click", href: "/services/ppc" },
+  { name: "WhatsApp Marketing", href: "/services/whatsapp-marketing" },
+  { name: "E-mail Marketing", href: "/services/email-marketing" },
+  { name: "Data Management", href: "/services/data-management" },
+  { name: "PR Marketing", href: "/services/pr-marketing" },
+],
+
+
     Industries: [
       { name: "StartUp Marketing", href: "/industries/startup" },
       { name: "Fashion Digital Marketing Agency", href: "/industries/fashion" },
@@ -53,7 +62,7 @@ export default function Header() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setPopupOpen(true);
-    }, 10000); // 60000ms = 1 minute
+    }, 60000); // 60000ms = 1 minute
 
     return () => clearTimeout(timer);
   }, []);
@@ -124,8 +133,8 @@ export default function Header() {
 
                   {/* Desktop Dropdown */}
                   {hasDropdown && openDropdown === item.name && (
-                    <div className="absolute left-0 pt-0 top-full w-64">
-                      <div className="bg-gray-900/98 backdrop-blur-sm rounded-lg shadow-2xl py-2 border border-purple-500/20">
+                    <div className="absolute  left-1/2 -translate-x-1/2 pt-0 top-full w-64">
+                      <div className="bg-gray-900/98 backdrop-blur-sm rounded-lg shadow-2xl py-2 border border-purple-500/20  max-h-[70vh] overflow-y-scroll hide-scrollbar">
                         {dropdownData[item.name].map((subItem) => (
                           <Link
                             key={subItem.href}
