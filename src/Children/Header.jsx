@@ -12,7 +12,7 @@ export default function Header() {
   const [showSuccess, setShowSuccess] = useState(false);
 
   const navItems = [
-    { name: "Services", hasDropdown: true, href: "/services" },
+    { name: "Services", hasDropdown: true, href: "/" },
     { name: "Industries", hasDropdown: true, href: "/" },
     { name: "Portfolio", hasDropdown: true, href: "/Portfolio" },
     { name: "About", hasDropdown: false, href: "/Aboutus" },
