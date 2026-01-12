@@ -32,28 +32,32 @@
       { id: 7, name: "CRO" },
     ];
 
-    const videoOptions = {
-      tech: [
-        { id: 'work', label: 'work', url: 'video/1.mp4' },
-        { id: 'tech2', label: 'Future Computing', url: 'https://www.w3schools.com/html/movie.mp4' },
-        { id: 'tech3', label: 'Digital World', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
-      ],
-      nature: [
-        { id: 'client', label: 'client', url: 'video/client.mp4' },
-        { id: 'nature2', label: 'Mountain Vista', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
-        { id: 'nature3', label: 'Forest Path', url: 'https://www.w3schools.com/html/movie.mp4' }
-      ],
-      urban: [
-        { id: 'urban1', label: 'City Lights', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
-        { id: 'urban2', label: 'Street Life', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-        { id: 'urban3', label: 'Urban Energy', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4' }
-      ],
-      art: [
-        { id: 'art1', label: 'Abstract Motion', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4' },
-        { id: 'art2', label: 'Creative Flow', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
-        { id: 'art3', label: 'Color Symphony', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
-      ]
-    };
+   const videoOptions = {
+  tech: [
+    { id: 'startup-marketing', label: 'Startup Marketing Campaign', url: 'video/1.mp4' },
+    { id: 'saas-growth', label: 'SaaS Growth Strategy', url: 'https://www.w3schools.com/html/movie.mp4' },
+    { id: 'ai-automation', label: 'AI Automation Project', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
+  ],
+
+  nature: [
+    { id: 'healthcare-client', label: 'Healthcare Brand Growth', url: 'video/client.mp4' },
+    { id: 'education-client', label: 'Education Lead Generation', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+    { id: 'ngo-awareness', label: 'NGO Awareness Campaign', url: 'https://www.w3schools.com/html/movie.mp4' }
+  ],
+
+  urban: [
+    { id: 'real-estate', label: 'Real Estate Marketing', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
+    { id: 'fashion-brand', label: 'Fashion Brand Promotion', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
+    { id: 'restaurant-growth', label: 'Restaurant Local SEO', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4' }
+  ],
+
+  art: [
+    { id: 'branding-design', label: 'Brand Identity Design', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4' },
+    { id: 'creative-ads', label: 'Creative Ad Campaign', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+    { id: 'video-production', label: 'Video Production Project', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
+  ]
+};
+
 
     const [leftCategory, setLeftCategory] = useState('tech');
     const [rightCategory, setRightCategory] = useState('urban');
