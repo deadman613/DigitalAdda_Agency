@@ -54,21 +54,21 @@ export default function ConsultingServices() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative"
           >
-            {/* Responsive grid: 1 col (mobile) → 2 cols (sm) → 3 cols (md+) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 auto-rows-[160px] sm:auto-rows-[190px] md:auto-rows-[220px] lg:auto-rows-[280px]">
+            {/* Responsive grid: 2 cols (mobile) → 3 cols (md+) */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 lg:gap-8 md:auto-rows-[220px] lg:auto-rows-[280px]">
               
               {/* Top wide - full width on mobile, 2 cols on md+ */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.98 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6 }}
-                className="col-span-1 sm:col-span-2 md:col-span-2 lg:row-span-2 row-span-1 relative rounded-br-[20px] rounded-tl-[20px] overflow-hidden shadow-2xl border border-white/8 group transform-gpu scale-[1.02] md:scale-[1.03] -translate-y-0 md:-translate-y-1 z-10 hover:scale-[1.04] hover:-translate-y-1"
+                className="col-span-2 md:col-span-2 lg:row-span-2 aspect-[16/9] md:aspect-auto md:row-span-1 relative rounded-br-[20px] rounded-tl-[20px] overflow-hidden shadow-2xl border border-white/8 group transform-gpu scale-[1.02] md:scale-[1.03] -translate-y-0 md:-translate-y-1 z-10 hover:scale-[1.04] hover:-translate-y-1"
               >
                 <img
                   src="group.jpeg"
                   alt="Leadership Team"
                   loading="lazy"
-                  className="w-full h-full object-cover object-bottom sm:object-center transition-transform duration-500"
+                  className="w-full h-full object-cover object-center transition-transform duration-500"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/20 backdrop-blur-sm">
                   <p className="text-white text-xs sm:text-sm font-medium">Strategic Leadership</p>
@@ -80,13 +80,13 @@ export default function ConsultingServices() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.04 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto md:row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="/dapic/1.webp"
                   alt="Top Right"
                   loading="lazy"
-                  className="w-full h-full object-cover object-bottom transition-transform duration-400 group-hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-400 group-hover:scale-105"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-3 bg-black/30 backdrop-blur-sm">
                   <p className="text-white text-xs font-medium">Collaborative Spirit</p>
@@ -98,25 +98,25 @@ export default function ConsultingServices() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.08 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto md:row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="dapic/group4.jpeg"
                   alt="Middle Left"
                   loading="lazy"
-                  className="w-full h-full object-cover object-center-right transition-transform duration-400 group-hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-400 group-hover:scale-105"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-3 bg-black/30 backdrop-blur-sm">
                   <p className="text-white text-xs font-medium">Growth Mindset</p>
                 </div>
               </motion.div>
 
-              {/* Middle center */}
+              {/* Middle center - Normal height on mobile */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.12 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto md:row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="dapic/9.webp"
@@ -129,18 +129,18 @@ export default function ConsultingServices() {
                 </div>
               </motion.div>
 
-              {/* Right tall - only spans 2 rows on md+ */}
+              {/* Right tall - Normal height on mobile, 2 rows on md+ */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.16 }}
-                className="col-span-1 md:row-span-2 row-span-1 relative rounded-br-[20px] rounded-tl-[20px] overflow-hidden shadow-2xl border border-white/8 group transform-gpu hover:scale-103 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto md:row-span-2 relative rounded-br-[20px] rounded-tl-[20px] overflow-hidden shadow-2xl border border-white/8 group transform-gpu hover:scale-103 hover:-translate-y-1"
               >
                 <img
                   src="dapic/group3.webp"
                   alt="Right Tall"
                   loading="lazy"
-                  className="w-full h-full object-cover object-bottom md:object-top transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 bg-black/30 backdrop-blur-sm">
                   <p className="text-white text-xs sm:text-sm font-medium">Global Perspective</p>
@@ -152,7 +152,7 @@ export default function ConsultingServices() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.20 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto md:row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="/dapic/6.webp"
@@ -170,7 +170,7 @@ export default function ConsultingServices() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.24 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="/dapic/3.webp"
@@ -188,7 +188,7 @@ export default function ConsultingServices() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.28 }}
-                className="col-span-1 row-span-1 relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
+                className="col-span-1 aspect-square md:aspect-auto relative rounded-br-[12px] rounded-tl-[12px] overflow-hidden shadow-md border border-white/6 group transform-gpu hover:scale-105 hover:-translate-y-1"
               >
                 <img
                   src="/dapic/7.webp"

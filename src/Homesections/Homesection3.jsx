@@ -122,60 +122,60 @@ function StatCard({ stat, index }) {
       ref={ref}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group relative text-center p-10 rounded-3xl bg-gradient-to-br from-purple-900/30 via-purple-800/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/60 transition-all duration-500 hover:scale-105 hover:-translate-y-2"
+      className="group relative text-center p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-purple-900/30 via-purple-800/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/60 transition-all duration-500 hover:scale-[1.02] hover:-translate-y-1"
       style={{
         willChange: "transform",
       }}
     >
-      {/* Glow effect - simplified */}
-      <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500 -z-10" />
+      {/* Glow effect */}
+      <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-2xl sm:rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500 -z-10" />
 
       {/* Icon */}
       <div className="relative mb-4 inline-block">
-        <Icon className="relative w-12 h-12 mx-auto text-purple-300 group-hover:text-pink-300 transition-colors duration-300" style={{ willChange: "color" }} />
+        <Icon className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto text-purple-300 group-hover:text-pink-300 transition-colors duration-300" style={{ willChange: "color" }} />
       </div>
 
       {/* Number */}
-      <h2 className="relative text-6xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-purple-200 to-pink-200 mb-2 group-hover:scale-110 transition-transform duration-300" style={{ willChange: "transform" }}>
+      <h2 className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-br from-white via-purple-200 to-pink-200 mb-2 group-hover:scale-110 transition-transform duration-300" style={{ willChange: "transform" }}>
         <span>{stat.final}</span>
       </h2>
       
       {/* Label */}
-      <p className="relative text-purple-200 text-base sm:text-lg font-medium group-hover:text-white transition-colors duration-300">
+      <p className="relative text-purple-200 text-sm sm:text-base font-medium group-hover:text-white transition-colors duration-300 px-2">
         {stat.label}
       </p>
 
       {/* Corner accents */}
-      <div className="absolute top-3 right-3 w-8 h-8 border-t-2 border-r-2 border-purple-400/40 rounded-tr-2xl group-hover:border-pink-400/60 transition-colors duration-300" />
-      <div className="absolute bottom-3 left-3 w-8 h-8 border-b-2 border-l-2 border-purple-400/40 rounded-bl-2xl group-hover:border-pink-400/60 transition-colors duration-300" />
+      <div className="absolute top-3 right-3 w-6 h-6 sm:w-8 sm:h-8 border-t-2 border-r-2 border-purple-400/40 rounded-tr-xl sm:rounded-tr-2xl group-hover:border-pink-400/60 transition-colors duration-300" />
+      <div className="absolute bottom-3 left-3 w-6 h-6 sm:w-8 sm:h-8 border-b-2 border-l-2 border-purple-400/40 rounded-bl-xl sm:rounded-bl-2xl group-hover:border-pink-400/60 transition-colors duration-300" />
     </div>
   );
 }
 
 export default function MarketIntelligenceSection() {
   return (
-    <section className="relative py-20 lg:py-32 px-6 overflow-hidden bg-gradient-to-br from-[#0a0015] via-[#1a0033] to-[#0f0f1e]">
-      {/* Floating particles - reduced count */}
+    <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 px-4 sm:px-6 overflow-hidden bg-gradient-to-br from-[#0a0015] via-[#1a0033] to-[#0f0f1e]">
+      {/* Floating particles */}
       <FloatingParticles />
 
-      {/* Glowing orbs - reduced */}
+      {/* Glowing orbs */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl opacity-50" />
-        <div className="absolute bottom-40 right-40 w-96 h-96 bg-pink-600/20 rounded-full blur-3xl opacity-50" />
+        <div className="absolute top-20 left-10 w-64 h-64 sm:w-96 sm:h-96 bg-purple-600/20 rounded-full blur-3xl opacity-50" />
+        <div className="absolute bottom-20 right-10 w-64 h-64 sm:w-96 sm:h-96 bg-pink-600/20 rounded-full blur-3xl opacity-50" />
       </div>
 
       <div className="relative max-w-7xl mx-auto">
         {/* Header */}
-        <header className="text-center mb-20 relative">
-          <div className="inline-block relative mb-6">
-            <Sparkles className="absolute -left-8 -top-2 w-6 h-6 text-purple-400 animate-pulse" />
-            <Sparkles className="absolute -right-8 -top-2 w-6 h-6 text-pink-400 animate-pulse" style={{ animationDelay: '0.5s' }} />
-            <h3 className="text-purple-400 text-sm tracking-[0.3em] uppercase font-bold relative">
+        <header className="text-center mb-12 sm:mb-16 md:mb-20 relative">
+          <div className="inline-block relative mb-4 sm:mb-6">
+            <Sparkles className="absolute -left-6 -top-1 w-5 h-5 sm:w-6 sm:h-6 text-purple-400 animate-pulse" />
+            <Sparkles className="absolute -right-6 -top-1 w-5 h-5 sm:w-6 sm:h-6 text-pink-400 animate-pulse" style={{ animationDelay: '0.5s' }} />
+            <h3 className="text-purple-400 text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase font-bold relative px-2">
               Market Intelligence & Growth
             </h3>
           </div>
           
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-black bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight mb-4 sm:mb-6 px-2">
             YOUR TRUSTED
             <br />
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
@@ -183,25 +183,24 @@ export default function MarketIntelligenceSection() {
             </span>
           </h1>
           
-          <div className="w-32 h-1.5 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full shadow-lg shadow-purple-500/50" />
+          <div className="w-24 sm:w-32 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full shadow-lg shadow-purple-500/50" />
         </header>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 items-start mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 items-start mb-12 sm:mb-16">
           {STATS.map((stat, idx) => (
             <StatCard key={idx} stat={stat} index={idx} />
           ))}
         </div>
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 mt-12 sm:mt-16">
           {/* Benefits Section */}
-          <div className="space-y-8">
-            <div className="group relative p-10 rounded-3xl bg-gradient-to-br from-white/10 via-purple-900/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/50 transition-all duration-300 hover:scale-[1.02]" style={{ willChange: "transform" }}>
-              {/* Hover glow */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-3xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10" />
+          <div className="space-y-6 sm:space-y-8">
+            <div className="group relative p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-white/10 via-purple-900/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/50 transition-all duration-300 hover:scale-[1.02]" style={{ willChange: "transform" }}>
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 rounded-2xl sm:rounded-3xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10" />
               
-              <p className="text-gray-100 text-lg leading-relaxed mb-8 relative">
+              <p className="text-gray-100 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8 relative px-1">
                   At <span className="text-purple-300 font-semibold">DigitalAdda Agency</span>, we are your trusted partner in building
                   powerful digital success. We deliver <span className="text-pink-300 font-semibold">result-driven marketing
                   strategies</span> that help brands grow faster and smarter. Our expert
@@ -210,11 +209,11 @@ export default function MarketIntelligenceSection() {
                   the competition.
               </p>
               
-              <ul className="space-y-5">
+              <ul className="space-y-4 sm:space-y-5">
                 {BENEFITS.map((benefit) => (
-                  <li key={benefit} className="flex items-center gap-4 group/item">
-                    <ArrowRight className="w-6 h-6 text-purple-400 group-hover/item:text-pink-400 group-hover/item:translate-x-1 transition-all duration-300" style={{ willChange: "transform, color" }} />
-                    <span className="text-gray-100 text-base group-hover/item:text-white transition-colors duration-300">
+                  <li key={benefit} className="flex items-start gap-3 sm:gap-4 group/item">
+                    <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-purple-400 group-hover/item:text-pink-400 group-hover/item:translate-x-1 transition-all duration-300 mt-0.5 flex-shrink-0" style={{ willChange: "transform, color" }} />
+                    <span className="text-gray-100 text-sm sm:text-base group-hover/item:text-white transition-colors duration-300">
                       {benefit}
                     </span>
                   </li>
@@ -222,34 +221,33 @@ export default function MarketIntelligenceSection() {
               </ul>
             </div>
 
-            <div className="group relative p-12 rounded-3xl bg-gradient-to-br from-purple-600/30 via-pink-600/20 to-blue-600/20 backdrop-blur-sm border-2 border-purple-400/50 text-center hover:scale-105 transition-transform duration-300 overflow-hidden" style={{ willChange: "transform" }}>
-              {/* Icon */}
-              <div className="relative mb-6 inline-block">
-                <Unlock className="relative w-20 h-20 mx-auto text-purple-200 group-hover:text-white transition-colors duration-300" />
+            <div className="group relative p-8 sm:p-10 md:p-12 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-purple-600/30 via-pink-600/20 to-blue-600/20 backdrop-blur-sm border-2 border-purple-400/50 text-center hover:scale-105 transition-transform duration-300 overflow-hidden" style={{ willChange: "transform" }}>
+              <div className="relative mb-4 sm:mb-6 inline-block">
+                <Unlock className="relative w-16 h-16 sm:w-20 sm:h-20 mx-auto text-purple-200 group-hover:text-white transition-colors duration-300" />
               </div>
               
-              <p className="relative text-2xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent">
+              <p className="relative text-xl sm:text-2xl md:text-2xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent px-2">
                 Unlock new opportunities
                 <br />
-                <span className="text-3xl">with our analysis.</span>
+                <span className="text-2xl sm:text-3xl">with our analysis.</span>
               </p>
             </div>
           </div>
 
           {/* Client Logos */}
-          <div className="group relative p-10 rounded-3xl bg-gradient-to-br from-white/10 via-purple-900/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/50 transition-all duration-300">
-            <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
+          <div className="group relative p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-white/10 via-purple-900/20 to-transparent backdrop-blur-sm border-2 border-purple-500/30 hover:border-purple-400/50 transition-all duration-300">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 bg-clip-text text-transparent px-2">
               Trusted by Industry Leaders
             </h3>
             
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
               {CLIENTS.map((client) => (
                 <div
                   key={client}
-                  className="group/logo relative bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm rounded-xl p-4 text-center text-sm font-semibold text-white hover:from-purple-500/20 hover:to-pink-500/20 transition-all duration-300 hover:scale-105 hover:-translate-y-1 border border-white/10 hover:border-purple-400/50"
+                  className="group/logo relative bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm rounded-lg sm:rounded-xl p-3 sm:p-4 text-center text-[10px] xs:text-xs sm:text-sm font-semibold text-white hover:from-purple-500/20 hover:to-pink-500/20 transition-all duration-300 hover:scale-105 hover:-translate-y-1 border border-white/10 hover:border-purple-400/50"
                   style={{ willChange: "transform" }}
                 >
-                  <span className="relative">{client}</span>
+                  <span className="relative truncate">{client}</span>
                 </div>
               ))}
             </div>

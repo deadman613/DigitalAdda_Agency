@@ -32,28 +32,32 @@
       { id: 7, name: "CRO" },
     ];
 
-    const videoOptions = {
-      tech: [
-        { id: 'tech1', label: 'AI Innovation', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
-        { id: 'tech2', label: 'Future Computing', url: 'https://www.w3schools.com/html/movie.mp4' },
-        { id: 'tech3', label: 'Digital World', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
-      ],
-      nature: [
-        { id: 'nature1', label: 'Ocean Waves', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' },
-        { id: 'nature2', label: 'Mountain Vista', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
-        { id: 'nature3', label: 'Forest Path', url: 'https://www.w3schools.com/html/movie.mp4' }
-      ],
-      urban: [
-        { id: 'urban1', label: 'City Lights', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
-        { id: 'urban2', label: 'Street Life', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
-        { id: 'urban3', label: 'Urban Energy', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4' }
-      ],
-      art: [
-        { id: 'art1', label: 'Abstract Motion', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4' },
-        { id: 'art2', label: 'Creative Flow', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
-        { id: 'art3', label: 'Color Symphony', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
-      ]
-    };
+   const videoOptions = {
+  tech: [
+    { id: 'startup-marketing', label: 'Startup Marketing Campaign', url: 'video/1.mp4' },
+    { id: 'saas-growth', label: 'SaaS Growth Strategy', url: 'https://www.w3schools.com/html/movie.mp4' },
+    { id: 'ai-automation', label: 'AI Automation Project', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
+  ],
+
+  nature: [
+    { id: 'healthcare-client', label: 'Healthcare Brand Growth', url: 'video/client.mp4' },
+    { id: 'education-client', label: 'Education Lead Generation', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+    { id: 'ngo-awareness', label: 'NGO Awareness Campaign', url: 'https://www.w3schools.com/html/movie.mp4' }
+  ],
+
+  urban: [
+    { id: 'real-estate', label: 'Real Estate Marketing', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' },
+    { id: 'fashion-brand', label: 'Fashion Brand Promotion', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' },
+    { id: 'restaurant-growth', label: 'Restaurant Local SEO', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4' }
+  ],
+
+  art: [
+    { id: 'branding-design', label: 'Brand Identity Design', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4' },
+    { id: 'creative-ads', label: 'Creative Ad Campaign', url: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+    { id: 'video-production', label: 'Video Production Project', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4' }
+  ]
+};
+
 
     const [leftCategory, setLeftCategory] = useState('tech');
     const [rightCategory, setRightCategory] = useState('urban');
@@ -68,7 +72,7 @@
     const [rightMuted, setRightMuted] = useState(true);
 
     const categories = [
-      { id: 'tech', label: 'Technology' },
+      { id: 'tech', label: 'Work' },
       { id: 'nature', label: 'Nature' },
       { id: 'urban', label: 'Urban' },
       { id: 'art', label: 'Art' }
@@ -91,17 +95,27 @@
     const toggleRightPlay = () => setRightPlaying(!rightPlaying);
     const toggleLeftMute = () => setLeftMuted(!leftMuted);
     const toggleRightMute = () => setRightMuted(!rightMuted);
+      // Video style to prevent cutting
+      const videoStyle = {
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover', // or 'cover' if you want to fill the area
+        background: '#000',
+        display: 'block',
+        maxHeight: '120vh',
+        maxWidth: '100vw',
+      };
 
     return (
       <>
         {/* ===== VIDEO BACKGROUND SECTION ===== */}
-        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-20 md:pt-12 lg:pt-16">
+        <section className="relative w-full bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pb-0 pt-20 md:pt-12 lg:pt-16">
           <div className="max-w-screen-2xl mx-auto px-4">
             {/* MOBILE: Stack videos vertically */}
             <div className="grid grid-cols-1 pt-10 md:grid-cols-2 gap-6">
 
               {/* LEFT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[220px] sm:h-[300px] md:aspect-video md:h-auto shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={leftVideo.id}
@@ -109,7 +123,7 @@
                   loop
                   muted={leftMuted}
                   playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
+                    style={videoStyle}
                 >
                   <source src={leftVideo.url} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -144,8 +158,8 @@
                 </div>
 
                 {/* Dropdown Header (centered) */}
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-3 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 shadow-lg">
-                  <h4 className="text-sm sm:text-lg md:text-2xl font-extrabold text-white">Your Business</h4>
+                <div className="absolute top-2 sm:top-4 md:top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-3 bg-black/60 backdrop-blur-md rounded-full px-2 sm:px-4 py-1 sm:py-2 shadow-lg max-w-[90vw]">
+                  <h4 className="text-xs sm:text-lg md:text-2xl font-extrabold text-white truncate max-w-[120px] sm:max-w-none">Your Business</h4>
                   <div className="relative">
                     <button
                       onClick={() => setLeftDropdownOpen(!leftDropdownOpen)}
@@ -156,7 +170,7 @@
                     </button>
 
                     {leftDropdownOpen && (
-                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-hidden border border-white/20 z-30">
+                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-[90vw] max-w-xs sm:max-w-sm md:w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-y-auto max-h-60 border border-white/20 z-30">
                         {categories.map((category) => (
                           <div key={category.id}>
                             <button
@@ -195,7 +209,7 @@
               </div>
 
               {/* RIGHT VIDEO PANEL */}
-              <div className="relative group rounded-xl overflow-hidden h-[300px] md:h-[500px] shadow-2xl border border-white/10">
+              <div className="relative group rounded-xl overflow-hidden h-[220px] sm:h-[300px] md:aspect-video md:h-auto shadow-2xl border border-white/10">
                 {/* Video */}
                 <video
                   key={rightVideo.id}
@@ -203,7 +217,7 @@
                   loop
                   muted={rightMuted}
                   playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
+                    style={videoStyle}
                 >
                   <source src={rightVideo.url} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -230,7 +244,7 @@
                   </div>
 
                   <div className="text-center text-white">
-                    <h3 className="text-2xl sm:text-4xl font-bold uppercase tracking-wide mb-2">
+                    <h3 className="text-2xl sm:text-2xl font-bold uppercase tracking-wide mb-2">
                       {categories.find(c => c.id === rightCategory)?.label}
                     </h3>
                     <p className="text-sm sm:text-lg">{rightVideo.label}</p>
@@ -238,8 +252,8 @@
                 </div>
 
                 {/* Dropdown Header (centered) */}
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-3 bg-black/60 backdrop-blur-md rounded-full px-4 py-2 shadow-lg">
-                  <h4 className="text-sm sm:text-[10px] md:text-2xl font-extrabold text-white">Our Growth Vision</h4>
+                <div className="absolute top-2 sm:top-4 md:top-6 left-1/2 transform -translate-x-1/2 z-20 flex items-center gap-2 sm:gap-3 bg-black/60 backdrop-blur-md rounded-full px-2 sm:px-4 py-1 sm:py-2 shadow-lg max-w-[90vw]">
+                  <h4 className="text-xs sm:text-lg md:text-2xl font-extrabold text-white truncate max-w-[120px] sm:max-w-none">Our Growth Vision</h4>
                   <div className="relative">
                     <button
                       onClick={() => setRightDropdownOpen(!rightDropdownOpen)}
@@ -250,7 +264,7 @@
                     </button>
 
                     {rightDropdownOpen && (
-                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-hidden border border-white/20 z-30">
+                      <div className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 w-[90vw] max-w-xs sm:max-w-sm md:w-56 bg-black/90 backdrop-blur-md rounded-xl shadow-xl overflow-y-auto max-h-60 border border-white/20 z-30">
                         {categories.map((category) => (
                           <div key={category.id}>
                             <button
@@ -291,10 +305,13 @@
           </div>
         </section>
 
+       
+
         {/* ===== HEADING + CONTENT SECTION ===== */}
         <section className="relative bg-gradient-to-br from-[#0f0020] via-[#1a0033] to-[#0f0f1e] pt-12 pb-16 md:py-24">
           <div className="px-4 md:px-8 max-w-5xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-5xl md:text-7xl pt-10 font-extrabold text-white leading-tight">
+          <h4 className="text-white text-[2.5rem] md:text-[4.5rem] "> <i>“Results come from execution.”</i></h4>
+            <h1 className="text-3xl sm:text-5xl md:text-7xl pt-20 font-extrabold text-white leading-tight">
               AI & VR Integrated
               <br />
               <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">

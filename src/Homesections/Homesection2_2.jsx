@@ -24,6 +24,20 @@ const brands = [
   { id: 18, name: "Shalini Vashisht", src: "/brands/18.png" },
 ];
 
+// Inverted triangle: widest at top → narrow at bottom
+// Pattern: [6, 5, 4, 3] = 18 items
+const getInvertedRows = (items) => {
+  const pattern = [6, 5, 4, 3];
+  const rows = [];
+  let index = 0;
+  for (const count of pattern) {
+    const row = items.slice(index, index + count);
+    if (row.length > 0) rows.push(row);
+    index += count;
+  }
+  return rows;
+};
+
 export default function BrandShowcase() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -33,32 +47,33 @@ export default function BrandShowcase() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.06,
+        staggerChildren: 0.07,
         delayChildren: 0.2,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 15, scale: 0.97 },
+    hidden: { opacity: 0, y: 20, scale: 0.9 },
     show: {
       opacity: 1,
       y: 0,
-      scale: 1,
+      scale: 1.2,
       transition: { duration: 0.5, ease: [0.34, 1.56, 0.64, 1] },
     },
-    hover: {
-      scale: 1.05,
-      y: -4,
-      boxShadow: "0 8px 32px rgba(188, 62, 201, 0.25)",
-      transition: { duration: 0.25 },
-    },
+    // hover: {
+    //   scale: 1.15,
+    //   y: -8,
+    //   transition: { duration: 0.25, ease: "easeOut" },
+    // },
   };
+
+  const rows = getInvertedRows(brands);
 
   return (
     <section
       ref={ref}
-      className="relative py-12 sm:py-16 lg:py-20 px-4 sm:px-6 overflow-hidden"
+      className="relative py-12 sm:py-16 lg:py-20 px-4 overflow-hidden"
       style={{
         background:
           "radial-gradient(circle at top left, #0f0020 0%, transparent 40%), radial-gradient(circle at bottom right, #0f0f1e 0%, #020617 100%)",
@@ -70,13 +85,13 @@ export default function BrandShowcase() {
         <div className="absolute right-0 bottom-1/4 w-80 h-80 rounded-full bg-purple-600/10 opacity-15 blur-3xl" />
       </div>
 
-      <div className="max-w-[1350px] mx-auto w-full">
+      <div className="max-w-7xl mx-auto w-full">
         {/* Headline */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-8 sm:mb-10 md:mb-12 px-2"
+          className="text-center mb-10 px-2"
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
             <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -88,29 +103,29 @@ export default function BrandShowcase() {
           </p>
         </motion.div>
 
-        {/* Brand Grid – Zero Padding Around Logos */}
+        {/* Inverted Triangle Layout */}
         <motion.div
           initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-100px" }}
+          animate={isInView ? "show" : "hidden"}
           variants={containerVariants}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4"
+          className="flex flex-col items-center gap-6 sm:gap-8 mt-8"
         >
-          {brands.map((brand) => (
+          {rows.map((row, rowIndex) => (
             <motion.div
-              key={brand.id}
-              variants={itemVariants}
-              whileHover="hover"
-              className="group flex items-center justify-center rounded-xl bg-white/3 backdrop-blur-sm border border-white/5 transition-all duration-300 hover:bg-white/5 hover:shadow-[0_8px_32px_rgba(120,119,198,0.2)]"
+              key={rowIndex}
+              className="flex justify-center flex-wrap gap-4 sm:gap-6 w-full"
             >
-              {/* ZERO PADDING — Logo fills entire card */}
-              <img
-                src={brand.src}
-                alt={brand.name}
-                className="w-full h-full object-contain filter group-hover:brightness-105 transition-all duration-300 ease-out"
-                // Optional: if logos are vector-based or need crisp edges
-                style={{ imageRendering: 'optimizeQuality' }}
-              />
+              {row.map((brand) => (
+                <motion.img
+                  key={brand.id}
+                  src={brand.src}
+                  alt={brand.name}
+                  variants={itemVariants}
+                  whileHover="hover"
+                  className="w-[100px] sm:w-[120px] md:w-[140px] lg:w-[160px] h-auto object-contain filter brightness-100 hover:brightness-125 transition-all duration-300"
+                  loading="lazy"
+                />
+              ))}
             </motion.div>
           ))}
         </motion.div>
