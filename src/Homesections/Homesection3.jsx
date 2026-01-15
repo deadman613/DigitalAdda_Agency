@@ -244,7 +244,7 @@ export default function MarketIntelligenceSection() {
               {CLIENTS.map((client) => (
                 <div
                   key={client}
-                  className="group/logo relative bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm rounded-lg sm:rounded-xl p-3 sm:p-4 text-center text-[10px] xs:text-xs sm:text-sm font-semibold text-white hover:from-purple-500/20 hover:to-pink-500/20 transition-all duration-300 hover:scale-105 hover:-translate-y-1 border border-white/10 hover:border-purple-400/50"
+                  className="group/logo relative bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-sm rounded-lg sm:rounded-xl p-3 sm:p-auto truncate text-center text-[10px] xs:text-xs sm:text-sm font-semibold text-white hover:from-purple-500/20 hover:to-pink-500/20 transition-all duration-300 hover:scale-105 hover:-translate-y-1 border border-white/10 hover:border-purple-400/50"
                   style={{ willChange: "transform" }}
                 >
                   <span className="relative truncate">{client}</span>
