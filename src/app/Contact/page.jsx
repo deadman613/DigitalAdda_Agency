@@ -64,9 +64,7 @@ export default function ContactPage() {
         </div>
 
         <div className="relative z-10 px-6 max-w-5xl mx-auto">
-          <h1 className="text-7xl md:text-9xl lg:text-[10rem] font-black text-white/20 tracking-widest select-none">
-            CONTACT PAGE
-          </h1>
+         
           <p className="mt-10 text-3xl md:text-5xl font-light text-white/90 leading-tight">
             Let's start a conversation that grows your business.
           </p>
@@ -87,7 +85,7 @@ export default function ContactPage() {
           <div className="space-y-12">
             <div className="space-y-8">
               <h2 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-                We're Here to <span className="bg-linear-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">Help You Grow</span>
+                We're Here to Help You Grow
               </h2>
 
               <div className="text-gray-300 text-lg leading-relaxed space-y-5 max-w-xl">
@@ -103,8 +101,8 @@ export default function ContactPage() {
             {/* Social Media Handles */}
             <div className="space-y-6">
               {[
-                { icon: Instagram, name: "Instagram", handle: "digitaladdaagency", link: "https://www.instagram.com/digitaladdaagency/" },
-                { icon: Linkedin, name: "LinkedIn", handle: "DigitalAdda Agency", link: "https://www.linkedin.com/in/digitaladda-agency-283322372/" },
+                { icon: Instagram, name: "Instagram", handle: "Digitaladdaagency", link: "https://www.instagram.com/digitaladdaagency/" },
+                { icon: Linkedin, name: "LinkedIn", handle: "Digitaladdaagency", link: "https://www.linkedin.com/in/digitaladda-agency-283322372/" },
                 { icon: Facebook, name: "Facebook", handle: "Digitaladdaagency", link: "https://www.facebook.com/profile.php?id=61577146244812" },
               ].map((social, i) => (
                 <a
@@ -129,7 +127,7 @@ export default function ContactPage() {
             </div>
 
             <p className="text-gray-500 text-sm">
-              Prefer email? <a href="mailto:info@flagscommunications.com" className="text-purple-400 hover:underline">info@flagscommunications.com</a>
+              Prefer email? <a href="mailto:Info@digitaladdagagency.com" className="text-purple-400 hover:underline">Info@digitaladdagagency.com</a>
             </p>
           </div>
 
