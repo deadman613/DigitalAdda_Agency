@@ -160,142 +160,129 @@
 },
 
 
-    "Fashion Digital Marketing Agency": {
-      "hero": {
-        "title": "Fashion That Stops Scrollers",
-        "subtitle": "From runway to Reels: make your brand the trend everyone craves.",
-        "description": "We turn aesthetics into algorithms — blending high-fashion visuals with viral hooks that convert window shoppers into loyalists."
+  
+  "Fashion Digital Marketing Agency": {
+    "hero": {
+      "title": "Build a Powerful Fashion Brand Online",
+      "subtitle": "The fashion industry is highly competitive and trend-driven. To stand out, fashion designers need strong online visibility, consistent branding, and targeted marketing.",
+      "description": "DigitalAdda Agency helps fashion designers, boutiques, and labels grow digitally through creative storytelling, performance marketing, and data-driven strategies."
+    },
+    "cta": "Get a Free Fashion Marketing Consultation",
+    "warningSigns": [
+      {
+        "title": "Your Clients Are Online — But You’re Not Visible",
+        "description": "Today’s fashion buyers discover designers on Instagram, Google, and Pinterest before making a decision."
       },
-      "cta": "Style Your Strategy Session",
-      "warningSigns": [
-        {
-          "title": "Lost in Template Hell",
-          "description": "You’re spending more time tweaking Canva templates than talking to customers."
-        },
-        {
-          "title": "Bio Weaker Than Your Pitch Deck",
-          "description": "Your investor pitch deck is stronger than your Instagram bio."
-        },
-        {
-          "title": "Shouting Into the Void",
-          "description": "Growth feels like shouting into an empty TechCrunch comment section."
-        },
-        {
-          "title": "Social = Afterthought",
-          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
-        },
-        {
-          "title": "Viral Launch, 3 Likes",
-          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
-        },
-        {
-          "title": "Problem Solved, But No One Knows",
-          "description": "You know your product solves a real problem… but no one else seems to notice."
-        }
-      ],
-      "approachHighlights": [
-        {
-          "icon": "👗",
-          "title": "Trend-Jacking, Not Trend-Chasing",
-          "description": "We spot rising aesthetics early (e.g., ‘coquette’, ‘mob wife’) and position your brand as the authority — not the follower."
-        },
-        {
-          "icon": "🎥",
-          "title": "Behind-the-Seams Storytelling",
-          "description": "Show fabric sourcing, artisan close-ups, and design sketches — turning products into emotional heirlooms."
-        },
-        {
-          "icon": "🔁",
-          "title": "UGC That Feels Like Aspirational Content",
-          "description": "Turn customer photos into high-production carousels — with styling tips, context, and credit that builds community."
-        },
-        {
-          "icon": "🛍️",
-          "title": "Swipe-Up Psychology",
-          "description": "We craft Reels with ‘pause-worthy’ moments and strategic CTAs that drive traffic *without* breaking the aesthetic."
-        },
-        {
-          "icon": "🌍",
-          "title": "Global Micro-Influencer Networks",
-          "description": "Hyper-local creators in Paris, Seoul, Lagos — not just LA — to build authentic desire across markets."
-        },
-        {
-          "icon": "📊",
-          "title": "Sell-Through Analytics",
-          "description": "Track which Reels drive real sales (not just saves) — and double down on what converts."
-        }
-      ],
-      "stats": [
-        "300+ Fashion Brands",
-        "$12M+ Revenue Tracked",
-        "3.2x Avg. ROAS",
-        "4.9/5 Creator Score"
-      ],
-        "plans": [
-    {
-      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
-      "term": "3 Months",
-      "description":"Perfect for new businesses or those starting digital transformation.",
-      "features": [
-        "Monthly Strategy",
-        "1 Social Media Platform",
-        "15 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Report",
-        "Monthly Strategy Meeting",
-        "Dedicated Account Manager",
-        "Phone Support",
-        "Emergency Support",
-        "Video Editing (Standard)"
-      ],
-      "cta": "Start Your Success",
-      "badge": "yehh"
-    },
-    {
-      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
-      "term": "6 Months",
-      "description": "Ideal for businesses wanting consistent, predictable growth.",
-      "features": [
-        "Monthly Strategy",
-        "3 Social Media Platforms",
-        "22 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Report",
-        "Monthly Meeting",
-        "Dedicated Account Manager",
-        "Phone Support",
-        "Emergency Support",
-        "Video Editing (Advanced)"
-      ],
-      "cta": "Start Your Success",
-      "badge": "yehh"
-    },
-    {
-      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
-      "term": "12 Months",
-      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
-      "features": [
-        "Monthly Strategy",
-        "3 Social Media Platforms",
-        "30 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Reports",
-        "Monthly Strategy Calls",
-        "Dedicated Senior Account Manager",
-        "Priority Phone Support",
-        "Emergency Out-of-Hours Support",
-        "Premium Video Editing & Reels",
-        "Trend Integration",
-        "Competitor Insights"
-      ],
-      "cta": "Start Your Success",
-      "badge": "Most Popular"
-    }
-  ]
-    },
+      {
+        "title": "Weak Personal Branding",
+        "description": "You’re not showcasing your collections, craftsmanship, or brand story effectively."
+      },
+      {
+        "title": "Inconsistent Inquiries",
+        "description": "Your digital presence isn’t generating regular leads for bridal wear, custom outfits, or boutique visits."
+      },
+      {
+        "title": "Struggling Against Big Brands",
+        "description": "Without strategic SEO and paid ads, it’s hard to compete with established labels."
+      },
+      {
+        "title": "Unclear Marketing ROI",
+        "description": "Traditional marketing lacks the data to show what’s working and what’s not."
+      },
+      {
+        "title": "Missed Opportunities in Trends",
+        "description": "You know your product solves a real problem… but no one else seems to notice."
+      }
+    ],
+    "approachHighlights": [
+      {
+        "icon": "👗",
+        "title": "Creative Storytelling",
+        "description": "Showcase fabric sourcing, artisan close-ups, and design sketches — turning products into emotional heirlooms."
+      },
+      {
+        "icon": "🎥",
+        "title": "Fashion-Focused Content",
+        "description": "High-impact reels, carousels, and trend-based posts that align with your brand aesthetic."
+      },
+      {
+        "icon": "🔁",
+        "title": "Audience Engagement & Growth",
+        "description": "Daily interaction, community building, and UGC integration that feels aspirational and authentic."
+      },
+      {
+        "icon": "🛍️",
+        "title": "Performance-Driven Campaigns",
+        "description": "Paid ads and organic strategies designed to drive inquiries, traffic, and sales — not just likes."
+      },
+      {
+        "icon": "🌍",
+        "title": "Local & Global Visibility",
+        "description": "Local SEO for boutiques and global reach through platform-specific strategies across markets."
+      },
+      {
+        "icon": "📊",
+        "title": "Transparent Analytics",
+        "description": "Track which content and campaigns drive real business outcomes — with monthly reporting and optimization."
+      }
+    ],
+    "stats": [
+      "300+ Fashion Brands",
+      "$12M+ Revenue Tracked",
+      "3.2x Avg. ROAS",
+      "4.9/5 Client Satisfaction"
+    ],
+    "plans": [
+      {
+        "name": "BASIC – 3 Months",
+        "term": "3 Months",
+        "description": "For New & Individual Designers",
+        "features": [
+          "Instagram & Facebook management",
+          "12 posts + 4 reels per month",
+          "Profile optimization",
+          "Monthly performance report",
+          "Brand awareness",
+          "Online presence setup"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Starter"
+      },
+      {
+        "name": "STANDARD – 6 Months",
+        "term": "6 Months",
+        "description": "For Growing Boutiques & Fashion Brands",
+        "features": [
+          "Instagram, Facebook & Pinterest management",
+          "16 posts + 8 reels per month",
+          "Paid ads management (budget extra)",
+          "SEO basics",
+          "Google My Business optimization",
+          "Lead generation",
+          "Brand engagement"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Popular"
+      },
+      {
+        "name": "PREMIUM – 1 Year",
+        "term": "12 Months",
+        "description": "For Established & Luxury Designers",
+        "features": [
+          "Complete digital marketing solution",
+          "20+ posts + 12+ reels per month",
+          "Advanced Google & Meta ads",
+          "SEO & content marketing",
+          "Influencer collaboration strategy",
+          "Dedicated account manager",
+          "Premium positioning",
+          "Sales & brand authority"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Most Popular"
+      }
+    ]
+  },
 
     "Health Care Digital Marketing": {
       "hero": {
