@@ -133,9 +133,7 @@ export default async function IndustryPage({ params }) {
                       className="flex flex-col h-full"
                       // flip-card-front commented
                     >
-                      <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-2xl mb-6">
-                        {sign.icon}
-                      </div>
+                      
 
                       <h3 className="text-2xl font-bold text-white mb-3 break-words">
                         {sign.title}

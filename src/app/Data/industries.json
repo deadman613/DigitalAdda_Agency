@@ -195,37 +195,37 @@
       }
     ],
     "approachHighlights": [
-      {
-        "icon": "👗",
-        "title": "Creative Storytelling",
-        "description": "Showcase fabric sourcing, artisan close-ups, and design sketches — turning products into emotional heirlooms."
-      },
-      {
-        "icon": "🎥",
-        "title": "Fashion-Focused Content",
-        "description": "High-impact reels, carousels, and trend-based posts that align with your brand aesthetic."
-      },
-      {
-        "icon": "🔁",
-        "title": "Audience Engagement & Growth",
-        "description": "Daily interaction, community building, and UGC integration that feels aspirational and authentic."
-      },
-      {
-        "icon": "🛍️",
-        "title": "Performance-Driven Campaigns",
-        "description": "Paid ads and organic strategies designed to drive inquiries, traffic, and sales — not just likes."
-      },
-      {
-        "icon": "🌍",
-        "title": "Local & Global Visibility",
-        "description": "Local SEO for boutiques and global reach through platform-specific strategies across markets."
-      },
-      {
-        "icon": "📊",
-        "title": "Transparent Analytics",
-        "description": "Track which content and campaigns drive real business outcomes — with monthly reporting and optimization."
-      }
-    ],
+{
+"icon": "📱",
+"title": "Social Media Marketing",
+"description": "Full management of Instagram, Facebook & Pinterest with fashion reels, creative content, trend-based posting, and daily audience engagement to drive growth."
+},
+{
+"icon": "🔍",
+"title": "Search Engine Optimization (SEO)",
+"description": "Rank for high-intent fashion keywords, optimize local visibility for boutiques and studios, and enhance your website or portfolio for search performance."
+},
+{
+"icon": "🎯",
+"title": "Paid Advertising (Google & Meta Ads)",
+"description": "Strategic lead generation campaigns, retargeting ads for website traffic, and targeted promotions for bridal and festive collections."
+},
+{
+"icon": "💻",
+"title": "Website & Landing Page Optimization",
+"description": "Designer-focused portfolio and collection pages with WhatsApp integration, inquiry forms, and mobile-first responsiveness for seamless user experience."
+},
+{
+"icon": "⭐",
+"title": "Online Reputation Management",
+"description": "Google My Business optimization and proactive review management to build trust and credibility across digital platforms."
+},
+{
+"icon": "📊",
+"title": "Transparent Analytics",
+"description": "Track which content and campaigns drive real business outcomes — with monthly reporting and optimization."
+}
+],
     "stats": [
       "300+ Fashion Brands",
       "$12M+ Revenue Tracked",
@@ -284,142 +284,130 @@
     ]
   },
 
-    "Health Care Digital Marketing": {
-      "hero": {
-        "title": "Trust, Transparency, Transformation",
-        "subtitle": "Human-first content that builds credibility & converts patients.",
-        "description": "Ethical, empathetic, and HIPAA-aware marketing that positions you as the healer — not the hustler."
+  "Health Care Digital Marketing": {
+    "hero": {
+      "title": "Helping Doctors & Healthcare Brands Grow Digitally with Trust & Compliance",
+      "subtitle": "Patients search online before choosing a doctor — we help you be found, trusted, and booked.",
+      "description": "Specialized digital marketing for doctors of all specialties that boosts visibility, builds credibility, and drives appointment bookings — all while staying fully compliant with medical advertising guidelines."
+    },
+    "cta": "Get a Free Healthcare Marketing Consultation",
+    "warningSigns": [
+      {
+        "title": "You’re Not Showing Up When Patients Search",
+        "description": "Your clinic is missing from Google Maps, local packs, and treatment-related searches — losing patients to competitors."
       },
-      "cta": "Schedule a Compliance-First Consult",
-      "warningSigns": [
-        {
-          "title": "Lost in Template Hell",
-          "description": "You’re spending more time tweaking Canva templates than talking to customers."
-        },
-        {
-          "title": "Bio Weaker Than Your Pitch Deck",
-          "description": "Your investor pitch deck is stronger than your Instagram bio."
-        },
-        {
-          "title": "Shouting Into the Void",
-          "description": "Growth feels like shouting into an empty TechCrunch comment section."
-        },
-        {
-          "title": "Social = Afterthought",
-          "description": "You’re A/B testing landing pages but your social feels like an afterthought."
-        },
-        {
-          "title": "Viral Launch, 3 Likes",
-          "description": "Your ‘viral’ launch post got 3 likes — 2 from your mom and 1 from your co-founder."
-        },
-        {
-          "title": "Problem Solved, But No One Knows",
-          "description": "You know your product solves a real problem… but no one else seems to notice."
-        }
-      ],
-      "approachHighlights": [
-        {
-          "icon": "❤️",
-          "title": "Patient Journey Storytelling",
-          "description": "Real anonymized stories (with consent) that highlight empathy, outcomes, and hope — without violating privacy."
-        },
-        {
-          "icon": "🛡️",
-          "title": "HIPAA-Safe Engagement",
-          "description": "Pre-approved comment responses, private DM protocols, and content workflows that keep you compliant *and* connected."
-        },
-        {
-          "icon": "🧠",
-          "title": "Myth-Busting Content",
-          "description": "Short videos debunking misinformation (e.g., ‘Do you *really* need that scan?’) to build authority and ease fears."
-        },
-        {
-          "icon": "👩‍⚕️",
-          "title": "Team Spotlight Series",
-          "description": "Humanize your practice: ‘A Day with Dr. Lee’, nurse interviews, admin team — trust is built person by person."
-        },
-        {
-          "icon": "📍",
-          "title": "Geo-Targeted Community Care",
-          "description": "Local health tips, free screening alerts, and partnerships with schools/gyms — position yourself as the neighborhood expert."
-        },
-        {
-          "icon": "📈",
-          "title": "Appointment-Driven Funnels",
-          "description": "Content → Lead Magnet (e.g., ‘Free Wellness Checklist’) → Calendly → Confirmed Visit. No vague ‘contact us’ dead ends."
-        }
-      ],
-      "stats": [
-        "180+ Clinics & Practices",
-        "41% Avg. New Patient Increase",
-        "97% Compliance Audit Pass",
-        "4.7/5 Patient Trust Score"
-      ],
-        "plans": [
-    {
-      "name": " 3-MONTH PLAN (Starter Growth Foundation)",
-      "term": "3 Months",
-      "description":"Perfect for new businesses or those starting digital transformation.",
-      "features": [
-        "Monthly Strategy",
-        "1 Social Media Platform",
-        "15 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Report",
-        "Monthly Strategy Meeting",
-        "Dedicated Account Manager",
-        "Phone Support",
-        "Emergency Support",
-        "Video Editing (Standard)"
-      ],
-      "cta": "Start Your Success",
-      "badge": "yehh"
-    },
-    {
-      "name": "6-MONTH PLAN (Steady Growth & Brand Building)",
-      "term": "6 Months",
-      "description": "Ideal for businesses wanting consistent, predictable growth.",
-      "features": [
-        "Monthly Strategy",
-        "3 Social Media Platforms",
-        "22 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Report",
-        "Monthly Meeting",
-        "Dedicated Account Manager",
-        "Phone Support",
-        "Emergency Support",
-        "Video Editing (Advanced)"
-      ],
-      "cta": "Start Your Success",
-      "badge": "yehh"
-    },
-    {
-      "name": "1-YEAR PLAN (Full Scale, Maximum Growth)",
-      "term": "12 Months",
-      "description": "Designed for business owners ready to scale fast, dominate their niche, and build digital authority.",
-      "features": [
-        "Monthly Strategy",
-        "3 Social Media Platforms",
-        "30 Posts Per Month",
-        "20 Minutes Daily Engagement",
-        "Email Support",
-        "Monthly Reports",
-        "Monthly Strategy Calls",
-        "Dedicated Senior Account Manager",
-        "Priority Phone Support",
-        "Emergency Out-of-Hours Support",
-        "Premium Video Editing & Reels",
-        "Trend Integration",
-        "Competitor Insights"
-      ],
-      "cta": "Start Your Success",
-      "badge": "Most Popular"
-    }
-  ]
-    },
+      {
+        "title": "Generic Agencies Don’t Understand Medical Rules",
+        "description": "Most marketers don’t know healthcare compliance — risking your license with misleading or non-compliant content."
+      },
+      {
+        "title": "Your Online Presence Lacks Professional Trust",
+        "description": "Outdated website, sparse reviews, or inconsistent branding make patients doubt your expertise."
+      },
+      {
+        "title": "Ads Get Rejected or Waste Budget",
+        "description": "You’ve tried running ads, but they violate policy — or convert poorly due to unclear messaging."
+      },
+      {
+        "title": "No Strategy Across Specialties",
+        "description": "Dental, dermatology, IVF, and surgery all need different messaging — one-size-fits-all doesn’t work in healthcare."
+      },
+      {
+        "title": "Growth Feels Unpredictable",
+        "description": "You get sporadic inquiries but no consistent flow of qualified, book-ready patients."
+      }
+    ],
+    "approachHighlights": [
+      {
+        "icon": "🩺",
+        "title": "Built for Every Medical Specialty",
+        "description": "From Ayurveda to neurosurgery — our strategies are tailored to your field’s patient journey, terminology, and compliance needs."
+      },
+      {
+        "icon": "🛡️",
+        "title": "100% Policy-Compliant by Design",
+        "description": "All content, ads, and campaigns pre-vetted against MCI, HIPAA, and local advertising laws — so you grow safely."
+      },
+      {
+        "icon": "📍",
+        "title": "Local SEO That Actually Converts",
+        "description": "We optimize for ‘near me’ searches, Google Business Profile, and local keywords that drive real appointment calls."
+      },
+      {
+        "icon": "🧠",
+        "title": "Authority Through Empathetic Education",
+        "description": "Myth-busting reels, symptom guides, and ‘what to expect’ videos build trust without making promises."
+      },
+      {
+        "icon": "⭐",
+        "title": "Reputation Engineered Ethically",
+        "description": "We help happy patients leave genuine Google reviews — boosting visibility and reducing new-patient hesitation."
+      },
+      {
+        "icon": "📈",
+        "title": "Bookings, Not Just Clicks",
+        "description": "Every piece of content funnels toward a clear action: ‘Book a Consult’, ‘Download Checklist’, or ‘Call Now’ — no dead ends."
+      }
+    ],
+    "stats": [
+      "180+ Clinics & Practices Served",
+      "41% Avg. Increase in New Patient Bookings",
+      "97% Compliance Audit Pass Rate",
+      "4.7/5 Average Patient Trust Score"
+    ],
+    "plans": [
+      {
+        "name": "BASIC – 3 Months (For Individual Doctors & Clinics)",
+        "term": "3 Months",
+        "description": "Build your foundational digital presence with ethical, local-focused marketing.",
+        "features": [
+          "Google My Business Optimization",
+          "Social Media Management (Facebook & Instagram)",
+          "12 Posts/Month",
+          "Basic SEO Setup",
+          "Monthly Performance Report",
+          "Online Presence Setup",
+          "Local Visibility Focus"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Starter"
+      },
+      {
+        "name": "STANDARD – 6 Months (For Clinics & Diagnostic Centers)",
+        "term": "6 Months",
+        "description": "Drive consistent patient inquiries with expanded reach and lead-focused campaigns.",
+        "features": [
+          "Social Media Management (FB & IG)",
+          "16 Posts/Month",
+          "SEO for 5–8 Treatment Keywords",
+          "Google Ads Management (Ad Budget Extra)",
+          "Appointment Lead Campaigns",
+          "Local SEO & Maps Optimization",
+          "Patient Inquiry Tracking"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Growth"
+      },
+      {
+        "name": "PREMIUM – 1 Year (For Hospitals & Multi-Specialty Clinics)",
+        "term": "12 Months",
+        "description": "Full-scale digital authority with integrated marketing, reputation control, and dedicated support.",
+        "features": [
+          "Complete Healthcare Digital Marketing (SEO + Social + Paid Ads)",
+          "Advanced Local SEO & Google Maps Ranking",
+          "Dedicated Account Manager",
+          "Online Reputation Management",
+          "Website & Landing Page Optimization",
+          "Google Review Growth System",
+          "Policy-Compliant Meta & Google Ads",
+          "Monthly Strategy Calls",
+          "Brand Credibility Reporting"
+        ],
+        "cta": "Start Your Success",
+        "badge": "Most Popular"
+      }
+    ]
+  },
 
     "B2B Digital Marketing": {
       "hero": {
@@ -555,8 +543,7 @@
       "cta": "Start Your Success",
       "badge": "Most Popular"
     }
-  ]
-    },
+  ]},
 
     "Education Digital Marketing": {
       "hero": {
@@ -985,37 +972,37 @@
         "Your competitors are going viral with ‘travel hack’ Reels — you’re still emailing newsletters."
       ],
       "approachHighlights": [
-        {
-          "icon": "✈️",
-          "title": "Sensory Storytelling",
-          "description": "Videos with ambient sound (waves, market chatter, jungle birds) — no music, just immersion."
-        },
-        {
-          "icon": "📱",
-          "title": "POV Travel Reels",
-          "description": "‘A Day in My Life as a Bali Retreat Guest’ — first-person, raw, no filters."
-        },
-        {
-          "icon": "🎁",
-          "title": "Lead Magnet Itineraries",
-          "description": "‘7-Day Kyoto Magic’ PDF — gated, detailed, and shareable — builds email list + trust."
-        },
-        {
-          "icon": "💬",
-          "title": "UGC Amplification Engine",
-          "description": "Repost + elevate client stories — with permission, credit, and strategic CTAs."
-        },
-        {
-          "icon": "🎯",
-          "title": "Niche Audience Targeting",
-          "description": "‘Solo Female Travelers’, ‘Retiree Adventures’, ‘Family Reconnection Trips’ — speak directly to psychographics."
-        },
-        {
-          "icon": "📅",
-          "title": "Seasonal FOMO Campaigns",
-          "description": "‘Only 3 Cherry Blossom Weeks Left!’ — urgency with beauty, not pressure."
-        }
-      ],
+{
+"icon": "📱",
+"title": "Social Media Marketing",
+"description": "Full management of Instagram, Facebook & Pinterest with fashion reels, creative content, trend-based posting, and daily audience engagement to drive growth."
+},
+{
+"icon": "🔍",
+"title": "Search Engine Optimization (SEO)",
+"description": "Rank for high-intent fashion keywords, optimize local visibility for boutiques and studios, and enhance your website or portfolio for search performance."
+},
+{
+"icon": "🎯",
+"title": "Paid Advertising (Google & Meta Ads)",
+"description": "Strategic lead generation campaigns, retargeting ads for website traffic, and targeted promotions for bridal and festive collections."
+},
+{
+"icon": "💻",
+"title": "Website & Landing Page Optimization",
+"description": "Designer-focused portfolio and collection pages with WhatsApp integration, inquiry forms, and mobile-first responsiveness for seamless user experience."
+},
+{
+"icon": "⭐",
+"title": "Online Reputation Management",
+"description": "Google My Business optimization and proactive review management to build trust and credibility across digital platforms."
+},
+{
+"icon": "📊",
+"title": "Transparent Analytics",
+"description": "Track which content and campaigns drive real business outcomes — with monthly reporting and optimization."
+}
+],
       "stats": [
         "75+ Travel Brands",
         "Avg. 28% Booking Uplift",
